@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: single_no_left_sidebar
 title: Section 1, Ocean Chemistry Concepts
 toc: true
 toc_label: "Table of Contents"
