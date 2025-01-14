@@ -2,11 +2,11 @@
 main:
   - title: "Home"
     url: /
-  - title: "About"
-    url: /about/
-  - title: "Data Download"
-    url: /data-download/
-  - title: "Maps"
-    url: /maps/
+  - title: "Course Content"
+    url: /course-content/
+  # - title: "Data Download"
+  #   url: /data-download/
+  # - title: "Maps"
+  #   url: /maps/
   # - title: "Sitemap"
   #   url: /sitemap/
