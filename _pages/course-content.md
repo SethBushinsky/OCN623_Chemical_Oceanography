@@ -4,7 +4,7 @@ title: Course Content
 toc: true
 toc_label: "Course subjects"
 toc_icon: "cog"
-permalink: /maps/
+permalink: /course-content/
 title: "Course Content"
 author_profile: false
 ---
