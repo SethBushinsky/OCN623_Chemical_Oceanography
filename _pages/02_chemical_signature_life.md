@@ -11,7 +11,7 @@ breadcrumbs: true
 ---
 
 ## Nutrient distributions, biological production and consumption
-<embed src="../assets/pdfs/04_Biology.pdf" type="application/pdf" width="700px" height="400px"/>
+<embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/04_Biology.pdf" type="application/pdf" width="700px" height="400px"/>
 
 
 ## Seasonal cycle box models
@@ -21,7 +21,7 @@ breadcrumbs: true
 <embed src="" type="application/pdf" width="700px" height="400px"/>
 
 ## Export and the nitrogen cycle
-<embed src="assets/pdfs/07_Export, N cycle, sedimentation.pdf" type="application/pdf" width="700px" height="400px"/>
+<embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/07_Export, N cycle, sedimentation.pdf" type="application/pdf" width="700px" height="400px"/>
 
 ## Sediments
 <embed src="" type="application/pdf" width="700px" height="400px"/>
