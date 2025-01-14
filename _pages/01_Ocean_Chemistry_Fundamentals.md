@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Course Content
+title: Section 1: Ocean Chemistry Concepts
 toc: true
 toc_label: "Course subjects"
 toc_icon: "cog"
@@ -10,8 +10,7 @@ author_profile: false
 breadcrumbs: true
 ---
 
-# Section 1: Ocean Chemistry Concepts
-## Introduction, chemical composition of SW
-## Ocean circulation, Geochemical Mass Balances
-## Gas solubility and Exchange
-## Hydrothermal systems 
+# Introduction, chemical composition of SW
+# Ocean circulation, Geochemical Mass Balances
+# Gas solubility and Exchange
+# Hydrothermal systems 
