@@ -10,21 +10,9 @@ author_profile: false
 breadcrumbs: true
 ---
 
-[Section 1: Ocean Chemistry Concepts](/OCN623_Chemical_Oceanography/course-content/01_ocean_chemistry_fundamentals/)
+[Section 1: Ocean Chemistry Concepts](/OCN623_Chemical_Oceanography/course-content/02_chemical_signature_life/)
 
-# Section 1: Ocean Chemistry Concepts
-## Introduction, chemical composition of SW
-## Ocean circulation, Geochemical Mass Balances
-## Gas solubility and Exchange
-## Hydrothermal systems 
-
-# Section 2: The chemical signature of life in the ocean
-## Nutrient distributions, biological production and consumption
-## Seasonal cycle box models
-## Global Carbon Cycle and box models
-## Export and the nitrogen cycle
-## Sediments
-## Trace elements in SW 
+[Section 2: The chemical signature of life in the ocean](/OCN623_Chemical_Oceanography/course-content/01_ocean_chemistry_fundamentals/)
 
 # Section 3: Thermodynamics, or why do things happen the way they do?
 ## Balancing equations, oxidation state, redox
