@@ -4,8 +4,8 @@ main:
     url: /
   - title: "Course Content"
     url: /course-content/
-    - title: 01 Ocean Chemistry Fundamentals
-    -url:/ /course-content/01_Ocean_Chemistry_Fundamentals
+    - title: "01 Ocean Chemistry Fundamentals"
+      url: /course-content/01_Ocean_Chemistry_Fundamentals/
   # - title: "Data Download"
   #   url: /data-download/
   # - title: "Maps"
