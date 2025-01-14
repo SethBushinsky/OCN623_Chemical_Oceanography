@@ -1,5 +1,5 @@
 ---
-layout: wide
+layout: single
 title: Section 1, Ocean Chemistry Concepts
 toc: true
 toc_label: "Table of Contents"
