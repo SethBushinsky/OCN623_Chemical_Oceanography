@@ -31,7 +31,7 @@ masthead_title           : # overrides the website title displayed in the masthe
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
 enable_copy_code_button  : # true, false (default)
-copyright                : # "copyright" name, defaults to site.title
+copyright                : "Seth Bushinsky" # "copyright" name, defaults to site.title
 copyright_url            : # "copyright" URL, defaults to site.url
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
@@ -119,8 +119,8 @@ author:
   location         : "Honolulu, HI"
   email            : seth.bushinsky@hawaii.edu
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
+    # - label: "Email"
+    #   icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:seth.bushinsky@hawaii.edu"
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -133,10 +133,10 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://github.com/SethBushinsky"
+    - label: "Course Github Repository"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/SethBushinsky/ocn_623_chemical_oceanography_UHM"
 
 # Site Footer
 footer:
