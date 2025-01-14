@@ -12,3 +12,5 @@ excerpt: Slides, recordings, and supplementary materials for OCN623 - Chemical O
   
 ---
 # Chemical Oceanography
+
+<embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/images/OCN_623_Syllabus_2025_v1.pdf" type="application/pdf" />
