@@ -1,9 +1,9 @@
 ---
-layout: single
+layout: wide
 title: Section 1, Ocean Chemistry Concepts
 toc: true
 toc_label: "Table of Contents"
-toc_icon: "cog"
+toc_icon: "fa-solid fa-water"
 permalink: /course-content/01_ocean_chemistry_fundamentals/
 title: "Section 1, Ocean Chemistry Concepts"
 author_profile: false
