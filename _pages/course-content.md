@@ -19,3 +19,6 @@ breadcrumbs: true
 [Section 4: Global Impacts](/OCN623_Chemical_Oceanography/course-content/04_global_impacts/)
 
 [Section 5: Measuring processes in the ocean on short and long timescales](/OCN623_Chemical_Oceanography/course-content/05_ocean_tracers/)
+
+[Problem Sets](/OCN623_Chemical_Oceanography/course-content/Problem_Sets/)
+

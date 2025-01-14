@@ -16,6 +16,5 @@ breadcrumbs: true
 ## Stable Isotopes
 <embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/20_Stable_Isotopes.pdf" type="application/pdf" width="700px" height="400px"/>
 
-
 ## Radioisotopes
-<embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/21_Radiosotopes.pdf" type="application/pdf" width="700px" height="400px"/>
+<embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/21_Radioisotopes.pdf" type="application/pdf" width="700px" height="400px"/>
