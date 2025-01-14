@@ -4,7 +4,7 @@ title: Course Content
 toc: true
 toc_label: "Course subjects"
 toc_icon: "cog"
-permalink: /course-content/01_ocean_chemistry_fundamentals
+permalink: /course-content/01_ocean_chemistry_fundamentals/
 title: "Course Content"
 author_profile: false
 ---
