@@ -10,15 +10,13 @@ author_profile: false
 ---
 
 # Section 1: Ocean Chemistry Concepts
-
 ## Introduction, chemical composition of SW
-
 ## Ocean circulation, Geochemical Mass Balances
 ## Gas solubility and Exchange
 ## Hydrothermal systems 
-## Nutrient distributions, biological production and consumption
 
 # Section 2: The chemical signature of life in the ocean
+## Nutrient distributions, biological production and consumption
 ## Seasonal cycle box models
 ## Global Carbon Cycle and box models
 ## Export and the nitrogen cycle
