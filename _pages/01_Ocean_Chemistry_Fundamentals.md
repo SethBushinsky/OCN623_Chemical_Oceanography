@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Section 1: Ocean Chemistry Concepts
+title: Section 1, Ocean Chemistry Concepts
 toc: true
 toc_label: "Course subjects"
 toc_icon: "cog"
