@@ -2,14 +2,15 @@
 layout: single
 title: Course Content
 toc: true
-toc_label: "Course subjects"
+toc_label: "Main Sections"
 toc_icon: "cog"
 permalink: /course-content/
 title: "Course Content"
 author_profile: false
+breadcrumbs: true
 ---
 
-[Section 1: Ocean Chemistry Concepts](/course-content/01_ocean_chemistry_fundamentals/)
+[Section 1: Ocean Chemistry Concepts](/OCN623_Chemical_Oceanography/course-content/01_ocean_chemistry_fundamentals/)
 
 # Section 1: Ocean Chemistry Concepts
 ## Introduction, chemical composition of SW
