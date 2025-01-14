@@ -9,6 +9,8 @@ title: "Course Content"
 author_profile: false
 ---
 
+[Section 1: Ocean Chemistry Concepts](/course-content/01_ocean_chemistry_fundamentals/)
+
 # Section 1: Ocean Chemistry Concepts
 ## Introduction, chemical composition of SW
 ## Ocean circulation, Geochemical Mass Balances
