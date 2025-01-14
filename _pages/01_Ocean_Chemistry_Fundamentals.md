@@ -2,10 +2,10 @@
 layout: single
 title: Section 1, Ocean Chemistry Concepts
 toc: true
-toc_label: "Course subjects"
+toc_label: "Table of Contents"
 toc_icon: "cog"
 permalink: /course-content/01_ocean_chemistry_fundamentals/
-title: "Course Content"
+title: "Section 1, Ocean Chemistry Concepts"
 author_profile: false
 breadcrumbs: true
 ---
