@@ -14,3 +14,17 @@ excerpt: Slides, recordings, and supplementary materials for OCN623 - Chemical O
 # Chemical Oceanography
 
 <embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/OCN_623_Syllabus_2025_v1.pdf" type="application/pdf" />
+
+![image desc](./assets/images/Logo_Mark_Backed.png)
+[text](_pages/01_Ocean_Chemistry_Fundamentals.md)
+
+<object data="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/OCN_623_Syllabus_2025_v1.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/OCN_623_Syllabus_2025_v1.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/OCN_623_Syllabus_2025_v1.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
+
+<embed src="/assets/pdfs/OCN_623_Syllabus_2025_v1.pdf" type="application/pdf" />
+
+<embed src="assets/pdfs/OCN_623_Syllabus_2025_v1.pdf" type="application/pdf" />
+
