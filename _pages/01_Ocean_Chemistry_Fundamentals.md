@@ -17,6 +17,10 @@ breadcrumbs: true
 <embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/02_Circulation_Mass_Balance.pdf" 
   type="application/pdf" width="900px" height="400px"/>
 
+## Ocean circulation, Geochemical Mass Balances
+<embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/02_Circulation_Mass_Balance.pdf" 
+  type="application/pdf" width="900px" height="400px"/>
+
 ## Gas solubility and Exchange
 <embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/03_Gas_Solubility_Exchange.pdf" type="application/pdf" width="700px" height="400px"/>
 
