@@ -19,6 +19,6 @@ Monday's at 11am, MSB 523. If you need to meet via Zoom instead, let me know.
 <embed src="assets/pdfs/OCN_623_Syllabus_2025_v1.pdf" type="application/pdf" width="700px" height="400px" />
 
 ## Github repository
-[github.com/SethBushinsky/ocn_623_chemical_oceanography_UHM](https://github.com/SethBushinsky/ocn_623_chemical_oceanography_UHM)
+<https://github.com/SethBushinsky/ocn_623_chemical_oceanography_UHM/>
 - I will put example code for figures shown in class, plotting, etc. here
 
