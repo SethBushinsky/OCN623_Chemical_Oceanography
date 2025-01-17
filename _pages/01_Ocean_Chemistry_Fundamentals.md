@@ -27,15 +27,26 @@ Learning objectives:
 #### Impact on Circulation
 
 ### Stratification and Mixing
+- Mixing happens along isopycnals, not isobars - multiple orders of magnitude faster mixing along isopycnals than across (diapycnal mixing)
+
+- Video from day 2: 
+{% include video id="1_tVy-nQHE8ByeWeM-EaOf83S7eNfO5ya" provider="google-drive" %}
 
 ### Circulation and Biology
-
+- As waters age (circulate through the ocean, out of contact with the atmosphere) they accumulate the signal of respiration
+- [ photosynthesis / respiration equation]
 
 ### Section view $\neq$ Actual Circulation
+- [gif of SAMW pathway from observations]
+
 
 ### Units
 
-### The impact of pressure on temperature and density (in-situ vs. potential)
+
+#### The impact of pressure on temperature and density (in-situ vs. potential)
+
+
+
 
 ### Element Classification
 
