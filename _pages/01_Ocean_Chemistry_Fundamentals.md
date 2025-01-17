@@ -37,7 +37,7 @@ Learning objectives:
 - As waters age (circulate through the ocean, out of contact with the atmosphere) they accumulate the signal of respiration
 - [ photosynthesis / respiration equation]
 
-### Section view $\neq$ Actual Circulation
+### Section view $$\neq$$ Actual Circulation
 - [gif of SAMW pathway from observations]
 
 
