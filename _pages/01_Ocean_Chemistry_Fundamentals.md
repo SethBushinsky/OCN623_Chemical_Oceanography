@@ -61,6 +61,30 @@ Learning objectives:
 <embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/02_Circulation_Mass_Balance.pdf" 
   type="application/pdf" width="700px" height="500px"/>
 
+### Types of circulation - overturning vs. wind-driven
+
+#### Wind-driven circulation
+Upwelling, gyres, ekman pumping, impact on biology
+
+#### Seasonal mixing
+- seasonal mixed layer changes depth due to seasonal variability in wind speed, surface heating
+- below the seasonal thermocline you have a permanent thermocline
+
+### Geochemical mass balances
+- Two types:
+  - Balance bewteen reactants and products
+  - Geochemical cycles, balance of inputs/outputs with reservoirs
+
+#### Terminology:
+- Concentration vs. flux vs. transport vs. reservoir
+
+Term | Descr. | Units
+--- | --- | ---
+**Concentration** | Quantity per unit mass or volume | mol $$O_2$$ kg$$^{-1}$$ or mol $$O_2$$ m$$^{-3}$$
+**Flux** | Movement of some quantity across a boundary per unit time| mol $$O_2$$ m$$^{-2}$$ d$$^{-1}$$
+**Reservoir** | Amount contained in a volume or mass | mol $$O_2$$
+**Transport** | Total movement of a quantity | mol $$O_2$$ d$$^{-1}$$ or m d$$^{-1}$$
+
 ## Gas solubility and Exchange
 <embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/03_Gas_Solubility_Exchange.pdf" type="application/pdf" width="700px" height="500px"/>
 
