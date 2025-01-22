@@ -11,7 +11,7 @@ breadcrumbs: true
 mathjax: true
 ---
 
-## Introduction, chemical composition of SW
+## 1.1 Introduction, chemical composition of SW
 <embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/01_Chemical_composition_of_SW.pdf" 
   type="application/pdf" width="700px" height="500px"/>
 
@@ -57,7 +57,7 @@ Learning objectives:
 ### Gas Solubility 
 
 
-## Ocean circulation, Geochemical Mass Balances
+## 1.2 Ocean circulation, Geochemical Mass Balances
 <embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/02_Circulation_Mass_Balance.pdf" 
   type="application/pdf" width="700px" height="500px"/>
 
@@ -85,12 +85,12 @@ Term | Descr. | Units
 **Reservoir** | Amount contained in a volume or mass | mol $$O_2$$
 **Transport** | Total movement of a quantity | mol $$O_2$$ d$$^{-1}$$ or m d$$^{-1}$$
 
-## Gas solubility and Exchange
+## 1.3 Gas solubility and Exchange
 <embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/03_Gas_Solubility_Exchange.pdf" type="application/pdf" width="700px" height="500px"/>
 
 
 
 
-## Hydrothermal systems 
+## 1.4 Hydrothermal systems 
 <embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/Hydrothermal_Slides.pdf" type="application/pdf" width="700px" height="500px"/>
 
