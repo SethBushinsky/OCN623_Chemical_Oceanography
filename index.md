@@ -9,9 +9,12 @@ header:
   overlay_filter: rgba(0, 0, 0, 0.6)
   caption: "Biogeochemical float locations globally"
 excerpt: Slides, recordings, and supplementary materials for OCN623 - Chemical Oceanography at the University of Hawaiʻi at Mānoa
-author_profile: true
+author_profile: false
 toc: true
 ---
+## Chemical Oceanography
+Course material for OCN 623. This site is currently under development (as of 2025). 
+
 ## Office hours:
 Monday's at 11am, MSB 523. If you need to meet via Zoom instead, let me know.
 
