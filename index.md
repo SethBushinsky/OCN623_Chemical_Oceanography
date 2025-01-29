@@ -44,14 +44,7 @@ Monday's at 11am, MSB 523. If you need to meet via Zoom instead, let me know.
 # Course Schedule  
 Readings / lectures/ Assignments subject to change with notification
 
-Term | Descr. | Units
---- | --- | ---
-**Concentration** | Quantity per unit mass or volume | mol $$O_2$$ kg$$^{-1}$$ or mol $$O_2$$ m$$^{-3}$$
-**Flux** | Movement of some quantity across a boundary per unit time| mol $$O_2$$ m$$^{-2}$$ d$$^{-1}$$
-**Reservoir** | Amount contained in a volume or mass | mol $$O_2$$
-**Transport** | Total movement of a quantity | mol $$O_2$$ d$$^{-1}$$ or m d$$^{-1}$$
-
-## Section 1: Ocean Chemistry Concepts
+## [Section 1: Ocean Chemistry Concepts](/OCN623_Chemical_Oceanography/course-content/01_ocean_chemistry_fundamentals/)
 
 Week | Month | Day | Topic | Readings | Assignments
 --- | --- | --- | --- | --- | ---
@@ -60,7 +53,7 @@ Week | Month | Day | Topic | Readings | Assignments
 2	| 	| 21	| Gas solubility and Exchange	| E & Hedges Ch. 10; E & Hamme Ch. 2.2	| PS2
  |  | 23	| Hydrothermal systems 	| E & Hedges Ch. 2.3; E & Hamme, Ch. 2.1.4	
 
-## Section 2: The chemical signature of life in the ocean
+## [Section 2: The chemical signature of life in the ocean](/OCN623_Chemical_Oceanography/course-content/02_chemical_signature_life/)
 
 Week | Month | Day | Topic | Readings | Assignments
 --- | --- | --- | --- | ---| ---
@@ -73,7 +66,7 @@ Week | Month | Day | Topic | Readings | Assignments
 6|		|18	| **Exam 1**		
   |  | 20	|BUOYS - No Class		
 
-## Section 3:Thermodynamics, or why do things happen the way they do?
+## [Section 3: Thermodynamics, or why do things happen the way they do?](/OCN623_Chemical_Oceanography/course-content/03_thermodynamics/)
 
 Week | Month | Day | Topic | Readings | Assignments
 --- | --- | --- | ---| ---| ---
@@ -89,7 +82,7 @@ Week | Month | Day | Topic | Readings | Assignments
   | | 27	| Review session		
 12	|April|	1	| **Exam 2**		
 
-## Section 4: Global Impacts
+## [Section 4: Global Impacts](/OCN623_Chemical_Oceanography/course-content/04_global_impacts/)
 
 Week | Month | Day | Topic | Readings | Assignments
 --- | --- | --- | ---| ---| ---
@@ -97,7 +90,7 @@ Week | Month | Day | Topic | Readings | Assignments
 13		| | 8	|Global CO2 and Climate (Sabine)	|E & Hedges Ch. 5; E & Hamme, Ch. 7	
     | | 10	|Ocean Acidification (Sabine)		
 
-## Section 5: Measuring processes in the ocean on short and long timescales
+## [Section 5: Measuring processes in the ocean on short and long timescales](/OCN623_Chemical_Oceanography/course-content/05_ocean_tracers/)
 
 Week | Month | Day | Topic | Readings | Assignments
 --- | --- | --- | ---| ---| ---
