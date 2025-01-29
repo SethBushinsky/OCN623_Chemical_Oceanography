@@ -65,13 +65,13 @@ Week | Month | Day | Topic | Readings | Assignments
 Week | Month | Day | Topic | Readings | Assignments
 --- | --- | --- | --- | ---| ---
 3		| Jan.| 28	| Nutrient distributions, biological production and consumption	|E & Hedges Ch. 6; E & Hamme, Ch. 3	
-| |  | 30	|Bio day 2, seasonal cycle box models	|	| PS3
+  | | 30	|Bio day 2, seasonal cycle box models	|	| PS3
 4	| Feb. |4	| Catch up day / Paper discussion / in class problem		
-|    | 6	|Global Carbon Cycle and box models	|E & Hedges Ch. 11; E & Hamme, Ch. 8	
+  |    | 6	|Global Carbon Cycle and box models	|E & Hedges Ch. 11; E & Hamme, Ch. 8	
 5|	 |11|	Export and the nitrogen cycle, sediments (McClish)	| E & Hedges Ch. 6, E & Hedges Ch. 12; E & Hamme, Ch. 3, 4; E & Hamme, Ch. 4.2.5	
  |   | 13	| Review Session		
-6|		|18	| **Exam 1**	| | 	
-|  | 20	|BUOYS - No Class		
+6|		|18	| **Exam 1**		
+  |  | 20	|BUOYS - No Class		
 
 ## Section 3:Thermodynamics, or why do things happen the way they do?
 
@@ -101,14 +101,14 @@ Week | Month | Day | Topic | Readings | Assignments
 
 Week | Month | Day | Topic | Readings | Assignments
 --- | --- | --- | ---| ---| ---
-|14	|	|15	|Paleoceanography (Zeebe)	|E & Hedges Ch. 7; E& Hamme Ch. 8.3	|PS8
-|  | | 17	|Paper discussion or in class problem		
-|15|	|	22	|Ocean tracers	|E & Hedges Ch. 5; E & Hamme Ch. 6	
-|  | | 24	|Stable Isotopes	|E & Hedges Ch. 5; E & Hamme, Ch. 6	|PS9?
-|16|	|	29|	Radioisotopes	|E & Hedges Ch. 5; E & Hamme, Ch. 7	
-|  |May	|1|	Paper discussion or in class problem		
-|17	|	|6	|Review session		
-|  |  | 15 | **Exam 3 during finals week**
+14	|	|15	|Paleoceanography (Zeebe)	|E & Hedges Ch. 7; E& Hamme Ch. 8.3	|PS8
+  | | 17	|Paper discussion or in class problem		
+15|	|	22	|Ocean tracers	|E & Hedges Ch. 5; E & Hamme Ch. 6	
+  | | 24	|Stable Isotopes	|E & Hedges Ch. 5; E & Hamme, Ch. 6	|PS9?
+16|	|	29|	Radioisotopes	|E & Hedges Ch. 5; E & Hamme, Ch. 7	
+  |May	|1|	Paper discussion or in class problem		
+17	|	|6	|Review session		
+  |  | 15 | **Exam 3 during finals week**
 
 <!-- ## Course Syllabus
 <embed src="assets/pdfs/OCN_623_Syllabus_2025_v2.pdf" type="application/pdf" width="700px" height="400px" /> -->
