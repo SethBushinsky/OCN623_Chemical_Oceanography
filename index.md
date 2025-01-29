@@ -54,9 +54,9 @@ Term | Descr. | Units
 **Transport** | Total movement of a quantity | mol $$O_2$$ d$$^{-1}$$ or m d$$^{-1}$$
 
 ### Section 1: Ocean Chemistry Concepts
+
 Week | Month | Day | Topic | Readings | Assignments
 --- | --- | --- | --- | --- | ---
-
 1 | Jan. | 14 | Introduction, Chemical composition of SW	| E & Hedges Ch. 1; E & Hamme, Ch. 1 |	PS1
  |   |   | 16 | Ocean circulation, Geochemical Mass Balances	| E & Hedges Ch. 2; E & Hamme, Ch. 2
 2	| 	| 21	| Gas solubility and Exchange	| E & Hedges Ch. 10; E & Hamme Ch. 2.2	| PS2
