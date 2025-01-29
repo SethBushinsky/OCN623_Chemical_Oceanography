@@ -56,12 +56,11 @@ Term | Descr. | Units
 ### Section 1: Ocean Chemistry Concepts
 Week | Month | Day | Topic | Readings | Assignments
 --- | --- | --- | --- | --- | ---
+
 1 | Jan. | 14 | Introduction, Chemical composition of SW	| E & Hedges Ch. 1; E & Hamme, Ch. 1 |	PS1
-
-
-|   |   | 16 | Ocean circulation, Geochemical Mass Balances	| E & Hedges Ch. 2; E & Hamme, Ch. 2
+ |   |   | 16 | Ocean circulation, Geochemical Mass Balances	| E & Hedges Ch. 2; E & Hamme, Ch. 2
 2	| 	| 21	| Gas solubility and Exchange	| E & Hedges Ch. 10; E & Hamme Ch. 2.2	| PS2
-|  |  | 23	| Hydrothermal systems 	| E & Hedges Ch. 2.3; E & Hamme, Ch. 2.1.4	
+ |  |  | 23	| Hydrothermal systems 	| E & Hedges Ch. 2.3; E & Hamme, Ch. 2.1.4	
 
 ### Section 2: The chemical signature of life in the ocean
 Week | Month | Day | Topic | Readings | Assignments
