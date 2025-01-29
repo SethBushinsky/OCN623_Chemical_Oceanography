@@ -56,46 +56,46 @@ Term | Descr. | Units
 Week | Month | Day | Topic | Readings | Assignments
 --- | --- | --- | --- | --- | ---
 1 | Jan. | 14 | Introduction, Chemical composition of SW	| E & Hedges Ch. 1; E & Hamme, Ch. 1 |	PS1
- |   |   | 16 | Ocean circulation, Geochemical Mass Balances	| E & Hedges Ch. 2; E & Hamme, Ch. 2
+ |    | 16 | Ocean circulation, Geochemical Mass Balances	| E & Hedges Ch. 2; E & Hamme, Ch. 2
 2	| 	| 21	| Gas solubility and Exchange	| E & Hedges Ch. 10; E & Hamme Ch. 2.2	| PS2
- |  |  | 23	| Hydrothermal systems 	| E & Hedges Ch. 2.3; E & Hamme, Ch. 2.1.4	
+ |  | 23	| Hydrothermal systems 	| E & Hedges Ch. 2.3; E & Hamme, Ch. 2.1.4	
 
 ## Section 2: The chemical signature of life in the ocean
 
 Week | Month | Day | Topic | Readings | Assignments
---- | --- | --- | ---| ---| ---
+--- | --- | --- | --- | ---| ---
 3		| Jan.| 28	| Nutrient distributions, biological production and consumption	|E & Hedges Ch. 6; E & Hamme, Ch. 3	
 | |  | 30	|Bio day 2, seasonal cycle box models	|	| PS3
 4	| Feb. |4	| Catch up day / Paper discussion / in class problem		
-| | |  6	|Global Carbon Cycle and box models	|E & Hedges Ch. 11; E & Hamme, Ch. 8	
-5|		|11|	Export and the nitrogen cycle, sediments (McClish)	| E & Hedges Ch. 6, E & Hedges Ch. 12; E & Hamme, Ch. 3, 4; E & Hamme, Ch. 4.2.5	
-| |   |13	| Review Session		
+|    | 6	|Global Carbon Cycle and box models	|E & Hedges Ch. 11; E & Hamme, Ch. 8	
+5|	 |11|	Export and the nitrogen cycle, sediments (McClish)	| E & Hedges Ch. 6, E & Hedges Ch. 12; E & Hamme, Ch. 3, 4; E & Hamme, Ch. 4.2.5	
+ |   | 13	| Review Session		
 6|		|18	| **Exam 1**	| | 	
-| |  | 20	|BUOYS - No Class		
+|  | 20	|BUOYS - No Class		
 
 ## Section 3:Thermodynamics, or why do things happen the way they do?
 
 Week | Month | Day | Topic | Readings | Assignments
 --- | --- | --- | ---| ---| ---
-|7	|	|25	|Balancing equations, oxidation state, redox|	Pdf on Laulima|	PS4
-|  | | 27	|Thermodynamics	|E & Hedges Ch. 12; E & Hamme, Ch. 4.2.5	
-|8	|March|	4	|Chemistry in seawater: Redox potential, pE-pH	|E & Hedges Ch. 3 (pdf on Laulima)	|PS5
-|   | |6	|Acids and Bases + Carbonate chemistry	|E & Hedges Ch. 4; E & Hamme, Ch. 5	
-|9	|	|11	|Estuarine & coastal biogeochemistry |		|PS6
-|   | |13	|Diagenesis in sediments (König)	|E & Hedges Ch. 3 (pdf on Laulima)	
-|10	| | |Spring Break		
-|  | | |Spring Break
-|11	|	|25	|Trace elements in SW (Hawco) |	E & Hedges Ch. 6; E & Hamme, Ch. 3.1.3	
-|  | | 27	| Review session		
-|12	|April|	1	| **Exam 2**		
+7	|	|25	|Balancing equations, oxidation state, redox|	Pdf on Laulima|	PS4
+  | | 27	|Thermodynamics	|E & Hedges Ch. 12; E & Hamme, Ch. 4.2.5	
+8	|March|	4	|Chemistry in seawater: Redox potential, pE-pH	|E & Hedges Ch. 3 (pdf on Laulima)	|PS5
+   | |6	|Acids and Bases + Carbonate chemistry	|E & Hedges Ch. 4; E & Hamme, Ch. 5	
+9	|	|11	|Estuarine & coastal biogeochemistry |		|PS6
+   | |13	|Diagenesis in sediments (König)	|E & Hedges Ch. 3 (pdf on Laulima)	
+10	| | |Spring Break		
+  | | |Spring Break
+11	|	|25	|Trace elements in SW (Hawco) |	E & Hedges Ch. 6; E & Hamme, Ch. 3.1.3	
+  | | 27	| Review session		
+12	|April|	1	| **Exam 2**		
 
 ## Section 4: Global Impacts
 
 Week | Month | Day | Topic | Readings | Assignments
 --- | --- | --- | ---| ---| ---
-|   |April |3	|Global Energy Balance (Sabine)	|E & Hedges Ch. 11; E & Hamme Ch. 8	|PS7
-|13		| | 8	|Global CO2 and Climate (Sabine)	|E & Hedges Ch. 5; E & Hamme, Ch. 7	
-|    | | 10	|Ocean Acidification (Sabine)		
+   |April |3	|Global Energy Balance (Sabine)	|E & Hedges Ch. 11; E & Hamme Ch. 8	|PS7
+13		| | 8	|Global CO2 and Climate (Sabine)	|E & Hedges Ch. 5; E & Hamme, Ch. 7	
+    | | 10	|Ocean Acidification (Sabine)		
 
 ## Section 5: Measuring processes in the ocean on short and long timescales
 
