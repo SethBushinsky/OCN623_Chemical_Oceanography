@@ -42,9 +42,16 @@ Monday's at 11am, MSB 523. If you need to meet via Zoom instead, let me know.
 ##  Course Schedule  
 Readings / lectures/ Assignments subject to change with notification
 
+Term | Descr. | Units
+--- | --- | ---
+**Concentration** | Quantity per unit mass or volume | mol $$O_2$$ kg$$^{-1}$$ or mol $$O_2$$ m$$^{-3}$$
+**Flux** | Movement of some quantity across a boundary per unit time| mol $$O_2$$ m$$^{-2}$$ d$$^{-1}$$
+**Reservoir** | Amount contained in a volume or mass | mol $$O_2$$
+**Transport** | Total movement of a quantity | mol $$O_2$$ d$$^{-1}$$ or m d$$^{-1}$$
+
 ### Section 1: Ocean Chemistry Concepts
 Week | Month | Day | Topic | Readings | Assignments
---- | --- | --- | ---| ---| ---
+--- | --- | --- | --- | --- | ---
 1 | Jan. | 14 | Introduction, Chemical composition of SW	| E & Hedges Ch. 1; E & Hamme, Ch. 1 |	PS1
 |   |   | 16 | Ocean circulation, Geochemical Mass Balances	| E & Hedges Ch. 2; E & Hamme, Ch. 2
 2	| 	| 21	| Gas solubility and Exchange	| E & Hedges Ch. 10; E & Hamme Ch. 2.2	| PS2
@@ -112,7 +119,7 @@ Week | Month | Day | Topic | Readings | Assignments
 - To get a registration override, e-mail me with your UH ID number
 
 ## Grading 
-# Grade Breakdown:
+### Grade Breakdown:
 Exams, 51% (17% each); 49% Homework assignments
 
 ### Assignment improvements:
