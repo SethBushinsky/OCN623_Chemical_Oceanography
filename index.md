@@ -11,9 +11,13 @@ header:
 excerpt: Slides, recordings, and supplementary materials for OCN623 - Chemical Oceanography at the University of Hawaiʻi at Mānoa
 author_profile: false
 toc: true
+toc_label: "Course Information"
+
 ---
 # Chemical Oceanography
 Course material for OCN 623. This site is currently under development (as of 2025). 
+
+# Syllabus 
 
 ## Instructor
 Seth Bushinsky: smb4@hawaii.edu, MSB 523
@@ -53,6 +57,8 @@ Term | Descr. | Units
 Week | Month | Day | Topic | Readings | Assignments
 --- | --- | --- | --- | --- | ---
 1 | Jan. | 14 | Introduction, Chemical composition of SW	| E & Hedges Ch. 1; E & Hamme, Ch. 1 |	PS1
+
+
 |   |   | 16 | Ocean circulation, Geochemical Mass Balances	| E & Hedges Ch. 2; E & Hamme, Ch. 2
 2	| 	| 21	| Gas solubility and Exchange	| E & Hedges Ch. 10; E & Hamme Ch. 2.2	| PS2
 |  |  | 23	| Hydrothermal systems 	| E & Hedges Ch. 2.3; E & Hamme, Ch. 2.1.4	
