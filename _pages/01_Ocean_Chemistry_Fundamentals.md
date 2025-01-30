@@ -75,6 +75,8 @@ Upwelling, gyres, ekman pumping, impact on biology
   - Balance bewteen reactants and products
   - Geochemical cycles, balance of inputs/outputs with reservoirs
 
+<embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/Geochemical_Mass_Balance.pdf" 
+
 - Video from day 3: 
 {% include video id="932IZc6Aee4" provider="youtube" %}
 
@@ -89,11 +91,19 @@ Term | Descr. | Units
 **Transport** | Total movement of a quantity | mol $$O_2$$ d$$^{-1}$$ or m d$$^{-1}$$
 
 ## 1.3 Gas solubility and Exchange
-<embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/03_Gas_Solubility_Exchange.pdf" type="application/pdf" width="700px" height="500px"/>
+### Gas Solubility
+<embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/Gas_Solubility.pdf" type="application/pdf" width="700px" height="300px"/>
 
+- Video from day 4: 
+{% include video id="22kmRtzZk8o" provider="youtube" %}
+
+### Gas Exchange
+<embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/Gas_Exchange.pdf" type="application/pdf" width="700px" height="300px"/>
 
 
 
 ## 1.4 Hydrothermal systems 
-<embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/Hydrothermal_Slides.pdf" type="application/pdf" width="700px" height="500px"/>
+<embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/Hydrothermal.pdf" type="application/pdf" width="700px" height="300px"/>
 
+- Video from day 5:
+{% include video id="RPWpwPGYD80" provider="youtube" %}
