@@ -75,6 +75,9 @@ Upwelling, gyres, ekman pumping, impact on biology
   - Balance bewteen reactants and products
   - Geochemical cycles, balance of inputs/outputs with reservoirs
 
+- Video from day 3: 
+{% include video id="932IZc6Aee4" provider="youtube" %}
+
 #### Terminology:
 - Concentration vs. flux vs. transport vs. reservoir
 
