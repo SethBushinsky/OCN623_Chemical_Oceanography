@@ -18,3 +18,9 @@ breadcrumbs: true
 
 ## Radioisotopes
 <embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/21_Radioisotopes.pdf" type="application/pdf" width="700px" height="400px"/>
+
+{% capture notice-2 %}
+**Extra reading/listening**:
+* An interesting Radiolab episode about determining the age of the earth via radioisotopes (and some problematic contamination):
+<http://www.wnycstudios.org/story/heavy-metal/>
+{% endcapture %}
