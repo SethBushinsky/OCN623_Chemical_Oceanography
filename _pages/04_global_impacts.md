@@ -16,6 +16,18 @@ breadcrumbs: true
 ## Global CO2 and Climate
 <embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/17_GlobalCO2Climate - lecture 2.pdf" type="application/pdf" width="700px" height="400px"/>
 
+
+
+{% capture notice-2 %}
+**Extra reading**:
+* First person (1865!) to consider that increasing carbon dioxide would lead to warming: **Eunice Newton Foote**: \
+https://www.mpg.de/18190093/eunice-newton-foote \
+https://en.wikipedia.org/wiki/Eunice_Newton_Foote
+
+{% endcapture %}
+
+<div class="notice">{{ notice-2 | markdownify }}</div>
+
 ## Ocean Acidification
 <embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/18_OAandCC - lecture 3.pdf" type="application/pdf" width="700px" height="400px"/>
 
