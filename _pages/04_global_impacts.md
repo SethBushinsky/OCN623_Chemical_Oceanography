@@ -20,7 +20,6 @@ breadcrumbs: true
 
 {% capture notice-2 %}
 **Extra reading**:
-* 
 
 **Eunice Newton Foote**, first person (1865!) to show that increasing carbon dioxide could lead to warming:
 ![image-left](https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/images/eunice_newton_foote.jpg){: .align-left "width: 80%;"}
