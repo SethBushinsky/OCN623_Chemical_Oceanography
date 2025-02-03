@@ -22,11 +22,10 @@ breadcrumbs: true
 **Extra reading**:
 * First person (1865!) to consider that increasing carbon dioxide would lead to warming:
 
-![image-left](https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/images/eunice_newton_foote.jpg){: .align-left} You can also place some text right after the image command, and it will nicely wrap around the image.
-
-* **Eunice Newton Foote**: 
-  * <https://www.mpg.de/18190093/eunice-newton-foote>
-  * <https://en.wikipedia.org/wiki/Eunice_Newton_Foote>
+**Eunice Newton Foote**:
+![image-left](https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/images/eunice_newton_foote.jpg){: .align-left "width: 80%;"}
+* <https://www.mpg.de/18190093/eunice-newton-foote>
+* <https://en.wikipedia.org/wiki/Eunice_Newton_Foote>
 
 {% endcapture %}
 
