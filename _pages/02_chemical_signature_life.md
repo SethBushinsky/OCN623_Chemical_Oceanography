@@ -47,8 +47,7 @@ breadcrumbs: true
 - Sediment: 0.2
 
 Question, Does biological carbon pump contribute to ocean’s uptake of anthropogenic carbon?
-
-<img width="661" alt="image" src="https://github.com/user-attachments/assets/bb085a5f-572b-4518-9807-c3fe6b659079" />
+![SRL-image-11](https://github.com/user-attachments/assets/8094cd56-8495-44a8-8175-8c4a7a7929ff)
 
  {% capture notice-2 %}
 ### **Sidebar - Global Carbon Budget Units**:
