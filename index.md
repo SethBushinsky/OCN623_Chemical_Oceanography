@@ -59,7 +59,8 @@ Week | Month | Day | Topic | Readings | Assignments
 --- | --- | --- | --- | ---| ---
 3		| Jan.| 28	| Nutrient distributions, biological production and consumption	|E & Hedges Ch. 6; E & Hamme, Ch. 3	
   | | 30	|Bio day 2, seasonal cycle box models	|	| PS3
-4	| Feb. |4	| Catch up day / Paper discussion / in class problem		
+4	| Feb. |4	| Catch up day / Paper discussion / in class problem	| 	[Global Biogeochemical Cycles - 2018 - Wolf - Oxygen Saturation Surrounding Deep Water Formation Events in the Labrador Sea.pdf](https://github.com/user-attachments/files/18664429/Global.Biogeochemical.Cycles.-.2018.-.Wolf.-.Oxygen.Saturation.Surrounding.Deep.Water.Formation.Events.in.the.Labrador.Sea.pdf)
+
   |    | 6	|Global Carbon Cycle and box models	|E & Hedges Ch. 11; E & Hamme, Ch. 8	
 5|	 |11|	Export and the nitrogen cycle, sediments (McClish)	| E & Hedges Ch. 6, E & Hedges Ch. 12; E & Hamme, Ch. 3, 4; E & Hamme, Ch. 4.2.5	
  |   | 13	| Review Session		
