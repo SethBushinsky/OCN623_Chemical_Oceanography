@@ -54,6 +54,7 @@ Question, Does biological carbon pump contribute to ocean’s uptake of anthropo
 * You will often see units of either PgC or Gigatonne C.
 * You will also see either C or CO2.
 * ...
+<div class="notice">{{ notice-2 | markdownify }}</div>
 
 
 ## 1.4 Export and the nitrogen cycle
