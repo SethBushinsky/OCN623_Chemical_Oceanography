@@ -16,26 +16,28 @@ breadcrumbs: true
 <embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/Biology_Stoichiometry.pdf" type="application/pdf" width="600px" height="350px"/>
 
 - Redfield Stoichiometry
-- Redfield, A.C. On The Proportions Of Organic Derivatives In Sea Water And Their Relation To The Composition Of Plankton. James Johnstone Memorial Volume, 176–192 (Liverpool University Press, 1934).
+  - Redfield, A.C. On The Proportions Of Organic Derivatives In Sea Water And Their Relation To The Composition Of Plankton. James Johnstone Memorial Volume, 176–192 (Liverpool University Press, 1934).
 
 ## 1.3 Global Carbon Cycle and box models
 <embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/Biological_Carbon_Cycle.pdf" type="application/pdf" width="600px" height="350px"/>
 - The ocean carbon cycle exists within the larger global carbon cycle
- - It is important to have a grasp of the relative magnitude of different fluxes / reservoirs of carbon in the earth system
+  - It is important to have a grasp of the relative magnitude of different fluxes / reservoirs of carbon in the earth system
 
 ### Natural vs. Anthropogenic vs. Contemporary
 - Definitions
- - Contemporary = Natural + Anthropogenic
- - Natural: pre-industrial carbon fluxes
- - Anthropogenic: This can be tricky. "Anthropogenic" carbon is not whether or not an individual "C" atom came from fossil fuels, it is the change in the C storage or C flux between pre-anthropogenic times and present day.
-  - Note about direct or indirect changes, include link to Hauck paper
+  - Contemporary = Natural + Anthropogenic
+  - Natural: pre-industrial carbon fluxes
+  - Anthropogenic: This can be tricky. "Anthropogenic" carbon is not whether or not an individual "C" atom came from fossil fuels, it is the change in the C storage or C flux between pre-anthropogenic times and present day.
+    - Note about direct or indirect changes, include link to Hauck paper
 
 ### Current anthropogenic fluxes:
 - Emissions: 11 Pg C yr-1
 - Atmospheric: 5 Pg C yr-1
 - Ocean uptake: 2.5 Pg C yr-1
- - Approximately: -0.6 Natural outgassing + 2.5 anthropogenic uptake = 1.9 Contemporary Ocean uptake
+  - Approximately: -0.6 Natural outgassing + 2.5 anthropogenic uptake = 1.9 Contemporary Ocean uptake
 
+
+![SRL-image-11](https://github.com/user-attachments/assets/8094cd56-8495-44a8-8175-8c4a7a7929ff)
 ### Current contemporary fluxes:
 - Units: Pg C yr-1
 - Solubility pump: 264 down, 275 up
@@ -47,10 +49,8 @@ breadcrumbs: true
 - Sediment: 0.2
 
 Question, Does biological carbon pump contribute to ocean’s uptake of anthropogenic carbon?
-![SRL-image-11](https://github.com/user-attachments/assets/8094cd56-8495-44a8-8175-8c4a7a7929ff)
 
-{% capture notice-2 %}
-### **Sidebar - Global Carbon Budget Units**:
+{% capture notice-2 %}### **Sidebar - Global Carbon Budget Units**:
 * You will often see units of either PgC or Gigatonne C.
 * You will also see either C or CO2.
 * ...
