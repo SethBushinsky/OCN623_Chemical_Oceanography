@@ -40,7 +40,7 @@ Pb_2^+_(aq) + 2 NO_3^-_(aq) + 2 Na^+_(aq) + 2 Cl^-_{(aq)} <--> PbCl_2_{(s)} + 2 
 
 This equation contains spectators that are not interacting, we can eliminate those spectators to get a **net ionic equation:**
 
-Pb_2^+_{(aq)} + 2 Cl^-_{(aq)} --> PbCl_2_{(s)}
+$\ce{Pb2+(aq) + 2 Cl-(aq) --> PbCl2(s)}
 {: .notice--primary}
 
 #### Steps in writing a net ionic equation:
