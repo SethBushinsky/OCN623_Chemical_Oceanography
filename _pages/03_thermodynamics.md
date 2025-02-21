@@ -11,16 +11,13 @@ breadcrumbs: true
 mathjax: true
 ---
 
-**Balanced chemical reactions are the math of chemistry
-**
+**Balanced chemical reactions are the math of chemistry**
 - They show the relationship between the reactants and the products
 
-**How will chemical reactions proceed? 
-**
+**How will chemical reactions proceed?**
 - Thermodynamics allows us to calculate the feasibility of reactions and to understand when/how equilibrium is established
 
-**Equilibrium 
-**
+**Equilibrium**
 - Allows us to understand chemical processes such as ionic speciation, oxidation state distributions gas solubility, the carbonate system 
 
 
@@ -32,10 +29,15 @@ Examples:
 If a solution of lead nitrate is added to a solution of sodium chloride, lead chloride precipitates:
 
 **Conventional equation**:\
+
+{% capture notice-1 %}
 Pb(NO3)2(aq) + 2 NaCl(aq) <--> PbCl$$_2(s)$$ + 2 NaNO3(aq)
+{% endcapture %}
+{{ notice-1 | markdownify }}
 
 An **ionic equation** is written to show the actual species in solution:\
 Pb2+(aq) + 2 NO^3_-(aq) + 2 Na+(aq) + 2 Cl-(aq) <--> PbCl2(s) + 2 Na+(aq) + 2 NO3-(aq)
+{: .notice--primary}
 
 This equation contains spectators that are not interacting, we can eliminate those spectators to get a **net ionic equation:**\
 Pb2+(aq) + 2 Cl-(aq) --> PbCl2(s)
