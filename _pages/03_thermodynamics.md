@@ -30,7 +30,7 @@ If a solution of lead nitrate is added to a solution of sodium chloride, lead ch
 
 **Conventional equation**:
 
-$$Pb(NO3)2(aq) + 2NaCl(aq) <--> PbCl_2(s) + 2 NaNO_3(aq)$$
+$$Pb(NO_3)_{2(aq)} + 2NaCl_{(aq)} <--> PbCl_2(s) + 2 NaNO_{3(aq)}$$
 {: .notice--primary}
 
 An **ionic equation** is written to show the actual species in solution:
