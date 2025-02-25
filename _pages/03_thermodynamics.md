@@ -1,4 +1,4 @@
-<img width="517" alt="image" src="https://github.com/user-attachments/assets/9a56bde1-4536-44f4-900d-c2a198b171b1" />---
+---
 layout: single
 title: Section 3, The chemical signature of life in the ocean
 toc: true
