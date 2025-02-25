@@ -22,7 +22,7 @@ mathjax: true
 
 
 ## Balancing equations, oxidation state, redox
-<embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/Equations_slides" type="application/pdf" width="700px" height="400px"/>
+<embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/Equations_slides.pdf" type="application/pdf" width="700px" height="400px"/>
 
 ### Equation balancing:
 Examples:
