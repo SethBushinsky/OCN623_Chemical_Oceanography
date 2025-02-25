@@ -86,11 +86,12 @@ $$K=\fract{[C]^c[D]^d}{[A]^a{B}^b}$$
 **We want to answer these questions:**
 - Will this reaction happen?
 - If so, how far can it proceed?
+- 
 **We’ll only review a small subset of thermodynamics:**
-  - Laws of Thermodynamics and how they apply to chemistry
-    - Entropy, Enthalpy
-  - Equilibrium
-  - Using Gibbs free energy to determine if a reaction will proceed as written
+- Laws of Thermodynamics and how they apply to chemistry
+  - Entropy, Enthalpy
+- Equilibrium
+- Using Gibbs free energy to determine if a reaction will proceed as written
 
 Laws of Thermodynamics:
 1. Conservation of energy – total energy remains constant (but can be converted from one form to another)
