@@ -1,4 +1,4 @@
----
+<img width="517" alt="image" src="https://github.com/user-attachments/assets/9a56bde1-4536-44f4-900d-c2a198b171b1" />---
 layout: single
 title: Section 3, The chemical signature of life in the ocean
 toc: true
@@ -40,13 +40,30 @@ $$Pb_2^+_{(aq)} + 2 NO_3^-_{(aq)} + 2 Na^+_{(aq)} + 2 Cl^-_{(aq)} \iff PbCl_2_{(
 
 This equation contains spectators that are not interacting, we can eliminate those spectators to get a **net ionic equation:**
 
-$\ce{Pb2+(aq) + 2 Cl-(aq) --> PbCl2(s)}$
+$$\ce{Pb2+(aq) + 2 Cl-(aq) --> PbCl2(s)}$$
 {: .notice--primary}
 
 #### Steps in writing a net ionic equation:
 1. Write the conventional equation, including designations of state [(g), (l), (s), (aq)].  Balance the equation.
 2. Write the ionic equation by replacing each dissolved substance (aq) with the species in solution.  Never change states in this step. Be sure the equation is balanced for both atoms and charge.
 3. Write the net ionic equation by removing the spectators.  Reduce coefficients to lowest terms. Be sure the equation is balanced for both atoms and charge.
+
+### Chemical Equilibrium
+**How do we know if a reaction will proceed?**
+
+- Is a geochemical system at chemical equilibrium?
+- If not, what reactions are most likely to occur?
+
+**Types of processes where we would want to know if a reaction will proceed:**
+Solubility - diatoms in surface seawater
+Redox - organic matter oxidation
+Complexation - iron speciation & plankton growth
+Carbonate system - CaCO3 stability in marine sediments
+
+Consider a reversible reaction taking place at constant temperature:
+aA + bB         cC + dD
+
+The reactants A and B combine to form products C and D.
 
 
 ## Thermodynamics
