@@ -1,4 +1,4 @@
----
+<img width="929" alt="image" src="https://github.com/user-attachments/assets/5ab517a9-b51a-40f9-9dcf-81c7dbe9a58b" />---
 layout: single
 title: Section 3, The chemical signature of life in the ocean
 toc: true
@@ -35,12 +35,12 @@ $$Pb(NO_3)_{2(aq)} + 2NaCl_{(aq)} \iff PbCl_2(s) + 2 NaNO_{3(aq)}$$
 
 An **ionic equation** is written to show the actual species in solution:
 
-$$Pb_2^+_{(aq)} + 2 NO_3^-_{(aq)} + 2 Na^+_{(aq)} + 2 Cl^-_{(aq)} \iff PbCl_2_{(s)} + 2 Na^+_{(aq)} + 2 NO3^-_{(aq)}$$
+$$Pb^+_{2(aq)} + 2 NO^-_{3(aq)} + 2 Na^+_{(aq)} + 2 Cl^-_{(aq)} \iff PbCl_{2(s)} + 2 Na^+_{(aq)} + 2 NO3^-_{(aq)}$$
 {: .notice--primary}
 
 This equation contains spectators that are not interacting, we can eliminate those spectators to get a **net ionic equation:**
 
-$$\ce{Pb2+(aq) + 2 Cl-(aq) --> PbCl2(s)}$$
+$$Pb2+(aq) + 2 Cl-(aq) --> PbCl2(s)$$
 {: .notice--primary}
 
 #### Steps in writing a net ionic equation:
@@ -61,13 +61,51 @@ Complexation - iron speciation & plankton growth
 Carbonate system - CaCO3 stability in marine sediments
 
 Consider a reversible reaction taking place at constant temperature:
-aA + bB         cC + dD
 
-The reactants A and B combine to form products C and D.
+$$aA + bB      <-->   cC + dD$$
+{: .notice--primary}
+
+The **reactants** A and B combine to form products C and D.
+
+The concentrations of A and B decrease until they reach values that do not change with time:
+<img width="478" alt="image" src="https://github.com/user-attachments/assets/9d1b7cfa-aaff-4d89-bc95-27369de23a4e" />
+
+The time-invariant concentrations of reactants and products are called equilibrium concentrations.
+The ratio of these concentrations (or activities – active concentrations) is characteristic for each reaction, and is called the equilibrium constant, K:
+
+$$K=\fract{[C]^c[D]^d}{[A]^a{B}^b}$$
+{: .notice--primary}
+
+**Other than adding reactants and waiting until concentrations no longer change, how do we know what the equilibrium is?**
 
 
 ## Thermodynamics
+**…or how to predict chemical reactions without doing experiments**
 <embed src="" type="application/pdf" width="700px" height="400px"/>
+
+**We want to answer these questions:**
+- Will this reaction happen?
+- If so, how far can it proceed?
+**We’ll only review a small subset of thermodynamics:**
+  - Laws of Thermodynamics and how they apply to chemistry
+    - Entropy, Enthalpy
+  - Equilibrium
+  - Using Gibbs free energy to determine if a reaction will proceed as written
+
+Laws of Thermodynamics:
+1. Conservation of energy – total energy remains constant (but can be converted from one form to another)
+2. Entropy (disorder) tends to increase
+3. Entropy is constant when the temperature equals absolute zero
+{: .notice--success}
+
+Definitions:
+- Enthalpy – total energy of an element or compound
+- Entropy – degree of disorder (highly structured = low entropy, randomized = high entropy)
+- Gibbs free energy – the part of the total energy available to perform “useful” work
+
+Changes in enthalpy and entropy allows prediction of the feasibility of reactions
+{: .notice}
+
 
 ## Chemistry in seawater: Redox potential, pE-pH
 <embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/12_Redox_Potential_pE_pH.pdf" type="application/pdf" width="700px" height="400px"/>
