@@ -22,3 +22,7 @@ breadcrumbs: true
 ## Problem Set 3
 <embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/PS3_OCN_623.pdf" 
   type="application/pdf" width="700px" height="400px"/>
+
+## Problem Set 4
+<embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/PS4_OCN623.pdf" 
+  type="application/pdf" width="700px" height="400px"/>
