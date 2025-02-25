@@ -30,17 +30,17 @@ If a solution of lead nitrate is added to a solution of sodium chloride, lead ch
 
 **Conventional equation**:
 
-$$Pb(NO_3)\_{2(aq)} + 2NaCl_{(aq)} \reactarrow PbCl_2(s) + 2 NaNO_{3(aq)}$$
+$$Pb(NO_3)_{2(aq)} + 2NaCl_{(aq)} \iff PbCl_2(s) + 2 NaNO_{3(aq)}$$
 {: .notice--primary}
 
 An **ionic equation** is written to show the actual species in solution:
 
-$$Pb_2^+_(aq) + 2 NO_3^-_(aq) + 2 Na^+_(aq) + 2 Cl^-_{(aq)} \iff PbCl_2_{(s)} + 2 Na^+_{(aq)} + 2 NO3^-_(aq)$$
+$$Pb_2^+_{(aq)} + 2 NO_3^-_{(aq)} + 2 Na^+_{(aq)} + 2 Cl^-_{(aq)} \iff PbCl_2_{(s)} + 2 Na^+_{(aq)} + 2 NO3^-_{(aq)}$$
 {: .notice--primary}
 
 This equation contains spectators that are not interacting, we can eliminate those spectators to get a **net ionic equation:**
 
-$\ce{Pb2+(aq) + 2 Cl-(aq) --> PbCl2(s)}
+$\ce{Pb2+(aq) + 2 Cl-(aq) --> PbCl2(s)}$
 {: .notice--primary}
 
 #### Steps in writing a net ionic equation:
