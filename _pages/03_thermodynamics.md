@@ -1,4 +1,4 @@
-<img width="929" alt="image" src="https://github.com/user-attachments/assets/5ab517a9-b51a-40f9-9dcf-81c7dbe9a58b" />---
+---
 layout: single
 title: Section 3, The chemical signature of life in the ocean
 toc: true
@@ -22,7 +22,7 @@ mathjax: true
 
 
 ## Balancing equations, oxidation state, redox
-<embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/Thermodynamics_Activity.pdf" type="application/pdf" width="700px" height="400px"/>
+<embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/Equations_slides" type="application/pdf" width="700px" height="400px"/>
 
 ### Equation balancing:
 Examples:
@@ -68,7 +68,7 @@ $$aA + bB      <-->   cC + dD$$
 The **reactants** A and B combine to form products C and D.
 
 The concentrations of A and B decrease until they reach values that do not change with time:
-<img width="478" alt="image" src="https://github.com/user-attachments/assets/9d1b7cfa-aaff-4d89-bc95-27369de23a4e" />
+<img width="478" alt="image" src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/reaction_abcd.jpg" />
 
 The time-invariant concentrations of reactants and products are called equilibrium concentrations.
 The ratio of these concentrations (or activities – active concentrations) is characteristic for each reaction, and is called the equilibrium constant, K:
@@ -81,7 +81,7 @@ $$K=\fract{[C]^c[D]^d}{[A]^a{B}^b}$$
 
 ## Thermodynamics
 **…or how to predict chemical reactions without doing experiments**
-<embed src="" type="application/pdf" width="700px" height="400px"/>
+<embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/Thermodynamics_slides.pdf" type="application/pdf" width="700px" height="400px"/>
 
 **We want to answer these questions:**
 - Will this reaction happen?
