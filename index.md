@@ -60,7 +60,6 @@ Week | Month | Day | Topic | Readings | Assignments
 3		| Jan.| 28	| Nutrient distributions, biological production and consumption	|E & Hedges Ch. 6; E & Hamme, Ch. 3	
   | | 30	|Bio day 2, seasonal cycle box models	|	| PS3
 4	| Feb. |4	| Catch up day / Paper discussion / in class problem	| 	[Global Biogeochemical Cycles - 2018 - Wolf - Oxygen Saturation Surrounding Deep Water Formation Events in the Labrador Sea.pdf](https://github.com/user-attachments/files/18664429/Global.Biogeochemical.Cycles.-.2018.-.Wolf.-.Oxygen.Saturation.Surrounding.Deep.Water.Formation.Events.in.the.Labrador.Sea.pdf)
-
   |    | 6	|Global Carbon Cycle and box models	|E & Hedges Ch. 11; E & Hamme, Ch. 8	
 5|	 |11|	Export and the nitrogen cycle, sediments (McClish)	| E & Hedges Ch. 6, E & Hedges Ch. 12; E & Hamme, Ch. 3, 4; E & Hamme, Ch. 4.2.5	
  |   | 13	| Review Session		
@@ -73,10 +72,10 @@ Week | Month | Day | Topic | Readings | Assignments
 --- | --- | --- | ---| ---| ---
 7	|	|25	|Balancing equations, oxidation state, redox|	Pdf on Laulima|	PS4
   | | 27	|Thermodynamics	|E & Hedges Ch. 12; E & Hamme, Ch. 4.2.5	
-8	|March|	4	|Chemistry in seawater: Redox potential, pE-pH	|E & Hedges Ch. 3 (pdf on Laulima)	|PS5
-   | |6	|Acids and Bases + Carbonate chemistry	|E & Hedges Ch. 4; E & Hamme, Ch. 5	
-9	|	|11	|Estuarine & coastal biogeochemistry |		|PS6
-   | |13	|Diagenesis in sediments (König)	|E & Hedges Ch. 3 (pdf on Laulima)	
+8	|March|	4	|Chemistry in seawater: Redox potential, pE-pH	|E & Hedges Ch. 3 (pdf on Laulima)	|
+   | | 6	|Acids and Bases + Carbonate chemistry	|E & Hedges Ch. 4; E & Hamme, Ch. 5	 |PS5
+9	|	|11	|Estuarine & coastal biogeochemistry |		|
+   | |13	|Diagenesis in sediments (König)	|E & Hedges Ch. 3 (pdf on Laulima)	|PS6
 10	| | |Spring Break		
   | | |Spring Break
 11	|	|25	|Trace elements in SW (Hawco) |	E & Hedges Ch. 6; E & Hamme, Ch. 3.1.3	
