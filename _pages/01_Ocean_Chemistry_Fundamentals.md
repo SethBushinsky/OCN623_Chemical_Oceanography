@@ -8,7 +8,7 @@ permalink: /course-content/01_ocean_chemistry_fundamentals/
 title: "Section 1, Ocean Chemistry Concepts"
 author_profile: false
 breadcrumbs: true
-mathjax: true
+use_math: true
 ---
 
 ## 1.1 Introduction, chemical composition of SW
