@@ -8,6 +8,7 @@ permalink: /course-content/02_chemical_signature_life/
 title: "Section 2: The chemical signature of life in the ocean"
 author_profile: false
 breadcrumbs: true
+use_math: true
 ---
 ## 1.1 Seasonal Cycle
 <embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/Biology_Seasonal_Cycle.pdf" type="application/pdf" width="600px" height="350px"/>
