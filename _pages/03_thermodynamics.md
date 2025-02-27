@@ -62,7 +62,7 @@ Carbonate system - CaCO3 stability in marine sediments
 
 Consider a reversible reaction taking place at constant temperature:
 
-$$aA + bB      <-->   cC + dD$$
+$$aA + bB      \rightleftharpoons   cC + dD$$
 {: .notice--primary}
 
 The **reactants** A and B combine to form products C and D.
@@ -73,8 +73,10 @@ The concentrations of A and B decrease until they reach values that do not chang
 The time-invariant concentrations of reactants and products are called equilibrium concentrations.
 The ratio of these concentrations (or activities – active concentrations) is characteristic for each reaction, and is called the equilibrium constant, K:
 
-$$K=\fract{[C]^c[D]^d}{[A]^a{B}^b}$$
+$$K=\fract{[C]^c[D]^d}{[A]^a\{B\}^b}$$
 {: .notice--primary}
+
+$$ \frac{4}{3}$$
 
 **Other than adding reactants and waiting until concentrations no longer change, how do we know what the equilibrium is?**
 
