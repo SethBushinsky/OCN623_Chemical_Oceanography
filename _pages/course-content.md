@@ -22,3 +22,5 @@ breadcrumbs: true
 
 [Problem Sets](/OCN623_Chemical_Oceanography/course-content/Problem_Sets/)
 
+[Handouts](/OCN623_Chemical_Oceanography/course-content/Handouts/)
+
