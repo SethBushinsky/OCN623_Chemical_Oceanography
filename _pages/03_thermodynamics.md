@@ -30,17 +30,17 @@ If a solution of lead nitrate is added to a solution of sodium chloride, lead ch
 
 **Conventional equation**:
 
-$$Pb(NO_3)_{2(aq)} + 2NaCl_{(aq)} \iff PbCl_2(s) + 2 NaNO_{3(aq)}$$
+$$Pb(NO_3)_{2(aq)} + 2NaCl_{(aq)} \rightleftharpoons PbCl_2(s) + 2 NaNO_{3(aq)}$$
 {: .notice--primary}
 
 An **ionic equation** is written to show the actual species in solution:
 
-$$Pb^+_{2(aq)} + 2 NO^-_{3(aq)} + 2 Na^+_{(aq)} + 2 Cl^-_{(aq)} \iff PbCl_{2(s)} + 2 Na^+_{(aq)} + 2 NO3^-_{(aq)}$$
+$$Pb_{(aq)}^{2+} + 2 NO^-_{3(aq)} + 2 Na^+_{(aq)} + 2 Cl_{(aq)}^{-} \rightleftharpoons PbCl_{2(s)} + 2 Na_{(aq)}^+ + 2 NO3^-_{(aq)}$$
 {: .notice--primary}
 
 This equation contains spectators that are not interacting, we can eliminate those spectators to get a **net ionic equation:**
 
-$$Pb2+(aq) + 2 Cl-(aq) --> PbCl2(s)$$
+$$Pb^{2+}_{(aq)} + 2Cl^-_{(aq)} \rightleftharpoons PbCl_{2(s)}$$
 {: .notice--primary}
 
 #### Steps in writing a net ionic equation:
@@ -73,10 +73,10 @@ The concentrations of A and B decrease until they reach values that do not chang
 The time-invariant concentrations of reactants and products are called equilibrium concentrations.
 The ratio of these concentrations (or activities – active concentrations) is characteristic for each reaction, and is called the equilibrium constant, K:
 
-$$K=\fract{[C]^c[D]^d}{[A]^a\{B\}^b}$$
+$$ K=\fract{\{C\}^c\{D\}^d}{\{A\}^a\{B\}^b}$$
 {: .notice--primary}
 
-$$ \frac{4}{3}$$
+$$ \frac{\{C\}^c\{D\}^d}{\{A\}^a\{B\}^b}$$
 
 **Other than adding reactants and waiting until concentrations no longer change, how do we know what the equilibrium is?**
 
