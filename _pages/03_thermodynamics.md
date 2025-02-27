@@ -8,7 +8,7 @@ permalink: /course-content/03_thermodynamics/
 title: "Section 3: Thermodynamics, or why do things happen the way they do?"
 author_profile: false
 breadcrumbs: true
-mathjax: true
+use_math: true
 ---
 
 **Balanced chemical reactions are the math of chemistry**
