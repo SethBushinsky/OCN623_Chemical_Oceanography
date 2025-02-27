@@ -16,7 +16,7 @@ breadcrumbs: true
   type="application/pdf" width="700px" height="400px"/>
 
 ### Thermodynamics Properties - Stumm and Morgan, Appendix 3
-<embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/Stumm and Morgan Appendix 3_Thermodynamic properties.pdf.pdf" 
+<embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/Stumm and Morgan Appendix 3_Thermodynamic properties.pdf" 
   type="application/pdf" width="700px" height="400px"/>
 
 ### Equilibrium Constants and Standard Electrode Potentials
