@@ -5,9 +5,9 @@ main:
   - title: "Course Content"
     url: /course-content/
   - title: "Problem Sets"
-    url: /cProblem-Sets/
+    url: /course-content/Problem_Sets/
   - title: "Handouts"
-    url: /Handouts/
+    url: /course-content/Handouts/
   # - title: "01 Ocean Chemistry Fundamentals"
   #   url: /course-content/01_ocean_chemistry_fundamentals/
   # - title: "Data Download"
