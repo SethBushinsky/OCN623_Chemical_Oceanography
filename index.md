@@ -107,10 +107,10 @@ Week | Month | Day | Topic | Readings | Assignments
 <embed src="assets/pdfs/OCN_623_Syllabus_2025_v2.pdf" type="application/pdf" width="700px" height="400px" /> -->
 
 # Course Learning Objectives:
-1)	Explain the underlying principles of chemical and biogeochemical cycling in marine systems;
-2)	Explain the first order ways that biological and physical processes are captured by global chemical tracers;
-3)	Identify marine chemical and biogeochemical processes that impact your area of oceanographic interest, and know how to access and understand information on these processes;
-4)	Develop your chemical intuition: start to learn how to determine if a given magnitude, rate, or flux seems right to a 1st order;
+1. Explain the underlying principles of chemical and biogeochemical cycling in marine systems;
+2. Explain the first order ways that biological and physical processes are captured by global chemical tracers;
+3. Identify marine chemical and biogeochemical processes that impact your area of oceanographic interest, and know how to access and understand information on these processes;
+4. Develop your chemical intuition: start to learn how to determine if a given magnitude, rate, or flux seems right to a 1st order;
 
 # Github repository
 <https://github.com/SethBushinsky/ocn_623_chemical_oceanography_UHM/>
