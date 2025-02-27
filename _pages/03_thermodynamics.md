@@ -73,7 +73,7 @@ The concentrations of A and B decrease until they reach values that do not chang
 The time-invariant concentrations of reactants and products are called equilibrium concentrations.
 The ratio of these concentrations (or activities – active concentrations) is characteristic for each reaction, and is called the equilibrium constant, K:
 
-$$ K=\fract{\{C\}^c\{D\}^d}{\{A\}^a\{B\}^b}$$
+$$ K=\frac{\{C\}^c\{D\}^d}{\{A\}^a\{B\}^b}$$
 {: .notice--primary}
 
 $$ \frac{\{C\}^c\{D\}^d}{\{A\}^a\{B\}^b}$$
@@ -109,8 +109,10 @@ Definitions:
 Changes in enthalpy and entropy allows prediction of the feasibility of reactions
 {: .notice}
 
+## Reduction-Oxidation Reactions
+<embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/Redox_slides.pdf" type="application/pdf" width="700px" height="400px"/>
 
-## Chemistry in seawater: Redox potential, pE-pH
+## Chemistry in Seawater: Redox potential, pE-pH
 <embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/12_Redox_Potential_pE_pH.pdf" type="application/pdf" width="700px" height="400px"/>
 
 ## Acids and Bases + Carbonate chemistry
