@@ -118,6 +118,9 @@ Changes in enthalpy and entropy allows prediction of the feasibility of reaction
 ## Acids and Bases + Carbonate chemistry
 <embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/carbonate_chemistry.pdf" type="application/pdf" width="700px" height="400px"/>
 
+- Carbonate Chemistry class video: 
+{% include video id="QSpAW3oPGd0" provider="youtube" %}
+
 ## Estuarine and coastal biogeochemistry 
 <embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/OCN623-Coastal_bgc_students.pdf" type="application/pdf" width="700px" height="400px"/>
 
