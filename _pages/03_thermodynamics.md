@@ -116,7 +116,7 @@ Changes in enthalpy and entropy allows prediction of the feasibility of reaction
 <embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/Electrode_Potential.pdf" type="application/pdf" width="700px" height="400px"/>
 
 ## Acids and Bases + Carbonate chemistry
-<embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/carbonate_chemistry.pdf" type="application/pdf" width="700px" height="400px"/>
+<embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/carbonate_system.pdf" type="application/pdf" width="700px" height="400px"/>
 
 - Carbonate Chemistry class video: 
 {% include video id="QSpAW3oPGd0" provider="youtube" %}
