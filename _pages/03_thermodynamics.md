@@ -124,5 +124,17 @@ Changes in enthalpy and entropy allows prediction of the feasibility of reaction
 ## Estuarine and coastal biogeochemistry 
 <embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/OCN623-Coastal_bgc_students.pdf" type="application/pdf" width="700px" height="400px"/>
 
+- Estuaries and coastal bgc video: 
+{% include video id="y87jjAIuaSc" provider="youtube" %}
+
 ## Diagenesis in sediments
 <embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/OCN623 2024 Diagenesis - slides.pdf" type="application/pdf" width="700px" height="400px"/>
+
+## Trace Metals (not on exam 2)
+<embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/OCN623_trace_metal_hydrothermal_notes_21a.pdf" type="application/pdf" width="700px" height="400px"/>
+
+- Trace metals video: 
+{% include video id="e_OnUIvatsg" provider="youtube" %}
+
+- Exam 2 review video: 
+{% include video id="tHxl1sBvYGI" provider="youtube" %}
