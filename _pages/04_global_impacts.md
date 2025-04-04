@@ -13,6 +13,9 @@ breadcrumbs: true
 ## Global Energy Balance
 <embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/16_Energy Balance - lecture 1.pdf" type="application/pdf" width="700px" height="400px"/>
 
+- Global Energy and Water Cycle class video: 
+{% include video id="93-YIWIszTs" provider="youtube" %}
+
 ## Global CO2 and Climate
 <embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/17_GlobalCO2Climate - lecture 2.pdf" type="application/pdf" width="700px" height="400px"/>
 
