@@ -3,7 +3,7 @@ layout: single
 title: Section 4, Global Impacts
 toc: true
 toc_label: "Table of Contents"
-toc_icon: "cog"
+toc_icon: "fa-solid fa-globe"
 permalink: /course-content/04_global_impacts/
 title: "Section 4: Global Impacts"
 author_profile: false
@@ -20,7 +20,7 @@ breadcrumbs: true
 <embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/Sabine_GlobalCO2Climate_02.pdf" type="application/pdf" width="700px" height="400px"/>
 - Unfortunately the video did not record from this lecture
 
-## cean Acidification and Climate Change
+## Ocean Acidification and Climate Change
 <embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/Sabine_OAandCC_03.pdf" type="application/pdf" width="700px" height="400px"/>
 
 - Ocean Acidification and Climate Change video: 
@@ -38,9 +38,6 @@ breadcrumbs: true
 {% endcapture %}
 
 <div class="notice">{{ notice-2 | markdownify }}</div>
-
-## Ocean Acidification
-<embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/18_OAandCC - lecture 3.pdf" type="application/pdf" width="700px" height="400px"/>
 
 ## Paleoceanography
 <embed src="" type="application/pdf" width="700px" height="400px"/>
