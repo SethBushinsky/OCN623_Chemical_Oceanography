@@ -11,14 +11,20 @@ breadcrumbs: true
 ---
 
 ## Global Energy Balance
-<embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/16_Energy Balance - lecture 1.pdf" type="application/pdf" width="700px" height="400px"/>
+<embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/Sabine_Energy Balance_01.pdf" type="application/pdf" width="700px" height="400px"/>
 
 - Global Energy and Water Cycle class video: 
 {% include video id="93-YIWIszTs" provider="youtube" %}
 
 ## Global CO2 and Climate
-<embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/17_GlobalCO2Climate - lecture 2.pdf" type="application/pdf" width="700px" height="400px"/>
+<embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/Sabine_GlobalCO2Climate_02.pdf" type="application/pdf" width="700px" height="400px"/>
+- Unfortunately the video did not record from this lecture
 
+## cean Acidification and Climate Change
+<embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/Sabine_OAandCC_03.pdf" type="application/pdf" width="700px" height="400px"/>
+
+- Ocean Acidification and Climate Change video: 
+{% include video id="7LIb9cftOPM" provider="youtube" %}
 
 
 {% capture notice-2 %}
