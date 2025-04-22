@@ -97,7 +97,7 @@ Week | Month | Day | Topic | Readings | Assignments
 14	|	|15	| Ocean tracers	|E & Hedges Ch. 5; E & Hamme Ch. 6	     
   | | 17	|Stable Isotopes	|E & Hedges Ch. 5; E & Hamme, Ch. 6	
 15|	|	22	| Radioisotopes	|E & Hedges Ch. 5; E & Hamme, Ch. 7	|PS7  
-  | | 24	| Paper discussion or in class problem		| [Fallon, Guilderson, Caldeira 2003](assets/pdfs/Fallon, Guilderson, Caldeira - 2003 - Geophysical Research Letters.pdf)
+  | | 24	| Paper discussion or in class problem		| [Fallon, Guilderson, Caldeira 2003](assets/pdfs/Fallon, Guilderson, Caldeira, 2003 - Geophysical Research Letters.pdf) and [Jenkins et al., 2010](assets/pdfs/Jenkins et al. - 2010 - Radiocarbon.pdf)
 16|	|	29|	 Paleoceanography |E & Hedges Ch. 7; E& Hamme Ch. 8.3	
   |May	|1|	Paper discussion or in class problem		
 17	|	|6	|Review session		
