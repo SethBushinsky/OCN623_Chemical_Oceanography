@@ -24,7 +24,7 @@ breadcrumbs: true
 * An interesting Radiolab episode about determining the age of the earth via radioisotopes (and some problematic contamination):
 
 <http://www.wnycstudios.org/story/heavy-metal/>
-[Radio Lab: Heavy Metal, Sept. 24, 2001](http://www.wnycstudios.org/story/heavy-metal/)){:target="_blank"}
+[Radio Lab: Heavy Metal, Sept. 24, 2001](http://www.wnycstudios.org/story/heavy-metal/){:target="_blank"}
 {% endcapture %}
 <div class="notice">{{ notice-2 | markdownify }}</div>
 
