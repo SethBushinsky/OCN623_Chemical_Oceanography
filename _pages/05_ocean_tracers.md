@@ -17,10 +17,13 @@ breadcrumbs: true
 <embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/Stable_Isotopes.pdf" type="application/pdf" width="700px" height="400px"/>
 
 ## Radioisotopes
-<embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/Radioiactive_Tracers.pdf" type="application/pdf" width="700px" height="400px"/>
+<embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/Radioactive_Tracers.pdf" type="application/pdf" width="700px" height="400px"/>
 
 ## Ocean Tracer Examples
 <embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/Tracer_Examples.pdf" type="application/pdf" width="700px" height="400px"/>
+
+## Paleooceanography
+<embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/Paleo.pdf" type="application/pdf" width="700px" height="400px"/>
 
 {% capture notice-2 %}
 ### **Related**:
