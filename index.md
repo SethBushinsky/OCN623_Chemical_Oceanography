@@ -75,7 +75,7 @@ Week | Month | Day | Topic | Readings | Assignments
 8	|March|	4	|Chemistry in seawater: Redox potential, pE-pH	|E & Hedges Ch. 3 (pdf on Laulima)	|
    | | 6	|Acids and Bases + Carbonate chemistry	|E & Hedges Ch. 4; E & Hamme, Ch. 5	 |PS5
 9	|	|11	|Estuarine & coastal biogeochemistry |		|
-   | |13	|Diagenesis in sediments (König)	|E & Hedges Ch. 3 (pdf on Laulima)	|PS6
+   | |13	|Diagenesis in sediments (König)	|E & Hedges Ch. 3 (pdf on Laulima)	|
 10	| | |Spring Break		
   | | |Spring Break
 11	|	|25	|Trace elements in SW (Hawco) |	E & Hedges Ch. 6; E & Hamme, Ch. 3.1.3	
@@ -86,7 +86,7 @@ Week | Month | Day | Topic | Readings | Assignments
 
 Week | Month | Day | Topic | Readings | Assignments
 --- | --- | --- | ---| ---| ---
-   |April |3	|Global Energy Balance (Sabine)	|E & Hedges Ch. 11; E & Hamme Ch. 8	|PS7
+   |April |3	|Global Energy Balance (Sabine)	|E & Hedges Ch. 11; E & Hamme Ch. 8	|PS6
 13		| | 8	|Global CO2 and Climate (Sabine)	|E & Hedges Ch. 5; E & Hamme, Ch. 7	
     | | 10	|Ocean Acidification (Sabine)		
 
@@ -94,11 +94,11 @@ Week | Month | Day | Topic | Readings | Assignments
 
 Week | Month | Day | Topic | Readings | Assignments
 --- | --- | --- | ---| ---| ---
-14	|	|15	|Paleoceanography (Zeebe)	|E & Hedges Ch. 7; E& Hamme Ch. 8.3	|PS8
-  | | 17	|Paper discussion or in class problem		
-15|	|	22	|Ocean tracers	|E & Hedges Ch. 5; E & Hamme Ch. 6	
-  | | 24	|Stable Isotopes	|E & Hedges Ch. 5; E & Hamme, Ch. 6	|PS9?
-16|	|	29|	Radioisotopes	|E & Hedges Ch. 5; E & Hamme, Ch. 7	
+14	|	|15	| Ocean tracers	|E & Hedges Ch. 5; E & Hamme Ch. 6	     
+  | | 17	|Stable Isotopes	|E & Hedges Ch. 5; E & Hamme, Ch. 6	
+15|	|	22	| Radioisotopes	|E & Hedges Ch. 5; E & Hamme, Ch. 7	|[PS7](https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/course-content/Problem_Sets/#problem-set-7)
+  | | 24	| Paper discussion or in class problem		| [Fallon, Guilderson, Caldeira 2003](assets/pdfs/Fallon_Guilderson_Caldeira_2003_GRL.pdf) and [Jenkins et al., 2010](assets/pdfs/Jenkins et al. - 2010 - Radiocarbon.pdf)
+16|	|	29|	 Paleoceanography |E & Hedges Ch. 7; E& Hamme Ch. 8.3	
   |May	|1|	Paper discussion or in class problem		
 17	|	|6	|Review session		
   |  | 15 | **Exam 3 during finals week**
