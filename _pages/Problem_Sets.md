@@ -26,3 +26,18 @@ breadcrumbs: true
 ## Problem Set 4
 <embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/PS4_OCN623.pdf" 
   type="application/pdf" width="700px" height="400px"/>
+
+## Problem Set 5
+Due March 25
+<embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/PS5_OCN_623_v2025.pdf" 
+  type="application/pdf" width="700px" height="400px"/>
+
+## Problem Set 6
+Due April 15
+<embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/PS6_OCN_623_2025.pdf" 
+  type="application/pdf" width="700px" height="400px"/>
+
+## Problem Set 7
+Due May 1
+<embed src="https://sethbushinsky.github.io/OCN623_Chemical_Oceanography/assets/pdfs/PS7_OCN_623_2025.pdf" 
+  type="application/pdf" width="700px" height="400px"/>
