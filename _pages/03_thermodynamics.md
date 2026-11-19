@@ -55,10 +55,10 @@ $$Pb^{2+}_{(aq)} + 2Cl^-_{(aq)} \rightleftharpoons PbCl_{2(s)}$$
 - If not, what reactions are most likely to occur?
 
 **Types of processes where we would want to know if a reaction will proceed:**
-Solubility - diatoms in surface seawater
-Redox - organic matter oxidation
-Complexation - iron speciation & plankton growth
-Carbonate system - CaCO3 stability in marine sediments
+- Solubility - diatoms in surface seawater
+- Redox - organic matter oxidation
+- Complexation - iron speciation & plankton growth
+- Carbonate system - CaCO3 stability in marine sediments
 
 Consider a reversible reaction taking place at constant temperature:
 
@@ -76,8 +76,6 @@ The ratio of these concentrations (or activities – active concentrations) is c
 $$ K=\frac{\{C\}^c\{D\}^d}{\{A\}^a\{B\}^b}$$
 {: .notice--primary}
 
-$$ \frac{\{C\}^c\{D\}^d}{\{A\}^a\{B\}^b}$$
-
 **Other than adding reactants and waiting until concentrations no longer change, how do we know what the equilibrium is?**
 
 
@@ -88,7 +86,7 @@ $$ \frac{\{C\}^c\{D\}^d}{\{A\}^a\{B\}^b}$$
 **We want to answer these questions:**
 - Will this reaction happen?
 - If so, how far can it proceed?
-- 
+ 
 **We’ll only review a small subset of thermodynamics:**
 - Laws of Thermodynamics and how they apply to chemistry
   - Entropy, Enthalpy
