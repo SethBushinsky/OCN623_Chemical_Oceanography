@@ -1,0 +1,34 @@
+---
+title: "Section 4: Global Impacts"
+---
+
+## Global Energy Balance
+
+<embed class="pdf-embed" src="assets/pdfs/16_Energy_Balance_lecture1.pdf" type="application/pdf">
+
+[Download PDF](assets/pdfs/16_Energy_Balance_lecture1.pdf){.pdf-link}
+
+## Global CO~2~ and Climate
+
+<embed class="pdf-embed" src="assets/pdfs/17_GlobalCO2Climate_lecture2.pdf" type="application/pdf">
+
+[Download PDF](assets/pdfs/17_GlobalCO2Climate_lecture2.pdf){.pdf-link}
+
+::: {.callout-tip title="Extra reading"}
+**Eunice Newton Foote**, first person (1856!) to show that increasing carbon dioxide could lead to warming:
+
+![](assets/images/eunice_newton_foote.jpg){width=200}
+
+- <https://www.mpg.de/18190093/eunice-newton-foote>
+- <https://en.wikipedia.org/wiki/Eunice_Newton_Foote>
+:::
+
+## Ocean Acidification
+
+<embed class="pdf-embed" src="assets/pdfs/18_OAandCC_lecture3.pdf" type="application/pdf">
+
+[Download PDF](assets/pdfs/18_OAandCC_lecture3.pdf){.pdf-link}
+
+## Paleoceanography
+
+<!-- TODO: add slides -->

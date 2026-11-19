@@ -1,0 +1,15 @@
+/* Site-wide tweaks. Theme colors/fonts come from `theme:` in _quarto.yml. */
+
+/* Embedded PDF slides: full content width, fixed height */
+.pdf-embed {
+  width: 100%;
+  height: 500px;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+}
+
+/* Small "Download PDF" link under each embed */
+.pdf-link {
+  font-size: 0.9em;
+  margin-top: 0.25em;
+}

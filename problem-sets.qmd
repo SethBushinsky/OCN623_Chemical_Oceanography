@@ -1,0 +1,27 @@
+---
+title: "Problem Sets"
+---
+
+## Problem Set 1
+
+<embed class="pdf-embed" src="assets/pdfs/PS1_OCN623_v2025.pdf" type="application/pdf">
+
+[Download PDF](assets/pdfs/PS1_OCN623_v2025.pdf){.pdf-link}
+
+## Problem Set 2
+
+<embed class="pdf-embed" src="assets/pdfs/PS2_OCN623_v2025.pdf" type="application/pdf">
+
+[Download PDF](assets/pdfs/PS2_OCN623_v2025.pdf){.pdf-link}
+
+## Problem Set 3
+
+<embed class="pdf-embed" src="assets/pdfs/PS3_OCN_623.pdf" type="application/pdf">
+
+[Download PDF](assets/pdfs/PS3_OCN_623.pdf){.pdf-link}
+
+## Problem Set 4
+
+<embed class="pdf-embed" src="assets/pdfs/PS4_OCN623.pdf" type="application/pdf">
+
+[Download PDF](assets/pdfs/PS4_OCN623.pdf){.pdf-link}

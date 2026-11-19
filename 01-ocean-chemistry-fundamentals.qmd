@@ -1,0 +1,128 @@
+---
+title: "Section 1: Ocean Chemistry Concepts"
+format: 
+    html:
+        theme: cosmo
+---
+
+## 1.1 Introduction, chemical composition of SW
+
+<embed class="pdf-embed" src="assets/pdfs/01_Chemical_composition_of_SW.pdf" type="application/pdf">
+
+[Download PDF](assets/pdfs/01_Chemical_composition_of_SW.pdf){.pdf-link}
+
+Learning objectives:
+
+- Describe the properties of saltwater that are important to how the ocean circulates
+- Understand differences between units and why it matters
+- Broadly distinguish physical / circulation differences between different ocean basins
+- Identify different elemental behavior and explain the rationale for classification
+
+### Hydrogen bonding
+
+### Salinity
+
+#### Measurement
+
+#### Impact on Circulation
+
+### Stratification and Mixing
+
+- Mixing happens along isopycnals, not isobars - multiple orders of magnitude faster mixing along isopycnals than across (diapycnal mixing)
+
+- Video from day 2:
+
+{{< video https://www.youtube.com/watch?v=ITkX51VpDjc >}}
+
+### Circulation and Biology
+
+- As waters age (circulate through the ocean, out of contact with the atmosphere) they accumulate the signal of respiration
+- \[ photosynthesis / respiration equation\]
+
+### Section view $\neq$ Actual Circulation
+
+- \[gif of SAMW pathway from observations\]
+
+### Units
+
+- Volume vs. mass in the denominator?
+
+#### The impact of pressure on temperature and density (in-situ vs. potential)
+
+\[-In-situ vs. potential temperature figures\]
+
+### Element Classification
+
+### Composition of the Atmosphere
+
+### Gas Solubility
+
+## 1.2 Ocean circulation, Geochemical Mass Balances
+
+<embed class="pdf-embed" src="assets/pdfs/02_Circulation_Mass_Balance.pdf" type="application/pdf">
+
+[Download PDF](assets/pdfs/02_Circulation_Mass_Balance.pdf){.pdf-link}
+
+### Types of circulation - overturning vs. wind-driven
+
+#### Wind-driven circulation
+
+Upwelling, gyres, ekman pumping, impact on biology
+
+#### Seasonal mixing
+
+- seasonal mixed layer changes depth due to seasonal variability in wind speed, surface heating
+- below the seasonal thermocline you have a permanent thermocline
+
+### Geochemical mass balances
+
+- Two types:
+  - Balance between reactants and products
+  - Geochemical cycles, balance of inputs/outputs with reservoirs
+
+<embed class="pdf-embed" src="assets/pdfs/Geochemical_Mass_Balance.pdf" type="application/pdf">
+
+[Download PDF](assets/pdfs/Geochemical_Mass_Balance.pdf){.pdf-link}
+
+- Video from day 3:
+
+{{< video https://www.youtube.com/watch?v=932IZc6Aee4 >}}
+
+#### Terminology:
+
+- Concentration vs. flux vs. transport vs. reservoir
+
+| Term | Descr. | Units |
+|---------------------|---------------------------|------------------------|
+| **Concentration** | Quantity per unit mass or volume | mol $O_2$ kg$^{-1}$ or mol $O_2$ m$^{-3}$ |
+| **Flux** | Movement of some quantity across a boundary per unit time | mol $O_2$ m$^{-2}$ d$^{-1}$ |
+| **Reservoir** | Amount contained in a volume or mass | mol $O_2$ |
+| **Transport** | Total movement of a quantity | mol $O_2$ d$^{-1}$ or m d$^{-1}$ |
+
+## 1.3 Gas solubility and Exchange
+
+### Gas Solubility
+
+<embed class="pdf-embed" src="assets/pdfs/Gas_Solubility.pdf" type="application/pdf">
+
+[Download PDF](assets/pdfs/Gas_Solubility.pdf){.pdf-link}
+
+- Video from day 4:
+
+{{< video https://www.youtube.com/watch?v=22kmRtzZk8o >}}
+
+### Gas Exchange
+
+<embed class="pdf-embed" src="assets/pdfs/Gas_Exchange.pdf" type="application/pdf">
+
+[Download PDF](assets/pdfs/Gas_Exchange.pdf){.pdf-link}
+
+## 1.4 Hydrothermal systems
+
+<embed class="pdf-embed" src="assets/pdfs/Hydrothermal.pdf" type="application/pdf">
+
+[Download PDF](assets/pdfs/Hydrothermal.pdf){.pdf-link}
+
+- Video from day 5:
+
+{{< video https://www.youtube.com/watch?v=RPWpwPGYD80 >}}

@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.11.9">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Section 3: Thermodynamics, or why do things happen the way they do? – OCN 623 – Chemical Oceanography</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-d31a0c91b01e363be7b7a36e602e2c70.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark" aria-label="Site">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">OCN 623 – Chemical Oceanography</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-course-content" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Course Content</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-course-content">    
+        <li>
+    <a class="dropdown-item" href="./01-ocean-chemistry-fundamentals.html">
+ <span class="dropdown-text">Section 1: Ocean Chemistry Concepts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./02-chemical-signature-life.html">
+ <span class="dropdown-text">Section 2: The chemical signature of life in the ocean</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./03-thermodynamics.html">
+ <span class="dropdown-text">Section 3: Thermodynamics, or why do things happen the way they do?</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./04-global-impacts.html">
+ <span class="dropdown-text">Section 4: Global Impacts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./05-ocean-tracers.html">
+ <span class="dropdown-text">Section 5: Measuring processes in the ocean on short and long timescales</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./problem-sets.html"> 
+<span class="menu-text">Problem Sets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./handouts.html"> 
+<span class="menu-text">Handouts</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+            <div id="quarto-search" class="" title="Search"></div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" aria-labelledby="toc-title" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#balancing-equations-oxidation-state-redox" id="toc-balancing-equations-oxidation-state-redox" class="nav-link active" data-scroll-target="#balancing-equations-oxidation-state-redox">Balancing equations, oxidation state, redox</a>
+  <ul class="collapse">
+  <li><a href="#equation-balancing" id="toc-equation-balancing" class="nav-link" data-scroll-target="#equation-balancing">Equation balancing:</a></li>
+  <li><a href="#chemical-equilibrium" id="toc-chemical-equilibrium" class="nav-link" data-scroll-target="#chemical-equilibrium">Chemical Equilibrium</a></li>
+  </ul></li>
+  <li><a href="#thermodynamics" id="toc-thermodynamics" class="nav-link" data-scroll-target="#thermodynamics">Thermodynamics</a></li>
+  <li><a href="#reduction-oxidation-reactions" id="toc-reduction-oxidation-reactions" class="nav-link" data-scroll-target="#reduction-oxidation-reactions">Reduction-Oxidation Reactions</a></li>
+  <li><a href="#chemistry-in-seawater-redox-potential-pe-ph" id="toc-chemistry-in-seawater-redox-potential-pe-ph" class="nav-link" data-scroll-target="#chemistry-in-seawater-redox-potential-pe-ph">Chemistry in Seawater: Redox potential, pE-pH</a></li>
+  <li><a href="#acids-and-bases-carbonate-chemistry" id="toc-acids-and-bases-carbonate-chemistry" class="nav-link" data-scroll-target="#acids-and-bases-carbonate-chemistry">Acids and Bases + Carbonate chemistry</a></li>
+  <li><a href="#estuarine-and-coastal-biogeochemistry" id="toc-estuarine-and-coastal-biogeochemistry" class="nav-link" data-scroll-target="#estuarine-and-coastal-biogeochemistry">Estuarine and coastal biogeochemistry</a></li>
+  <li><a href="#diagenesis-in-sediments" id="toc-diagenesis-in-sediments" class="nav-link" data-scroll-target="#diagenesis-in-sediments">Diagenesis in sediments</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content" tabindex="-1">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Section 3: Thermodynamics, or why do things happen the way they do?</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>Balanced chemical reactions are the math of chemistry</strong></p>
+<ul>
+<li>They show the relationship between the reactants and the products</li>
+</ul>
+<p><strong>How will chemical reactions proceed?</strong></p>
+<ul>
+<li>Thermodynamics allows us to calculate the feasibility of reactions and to understand when/how equilibrium is established</li>
+</ul>
+<p><strong>Equilibrium</strong></p>
+<ul>
+<li>Allows us to understand chemical processes such as ionic speciation, oxidation state distributions, gas solubility, the carbonate system</li>
+</ul>
+<section id="balancing-equations-oxidation-state-redox" class="level2">
+<h2 class="anchored" data-anchor-id="balancing-equations-oxidation-state-redox">Balancing equations, oxidation state, redox</h2>
+<embed class="pdf-embed" src="assets/pdfs/Equations_slides.pdf" type="application/pdf">
+<p><a href="assets/pdfs/Equations_slides.pdf" class="pdf-link">Download PDF</a></p>
+<section id="equation-balancing" class="level3">
+<h3 class="anchored" data-anchor-id="equation-balancing">Equation balancing:</h3>
+<p>Examples: If a solution of lead nitrate is added to a solution of sodium chloride, lead chloride precipitates:</p>
+<p><strong>Conventional equation</strong>:</p>
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><span class="math display">\[Pb(NO_3)_{2(aq)} + 2NaCl_{(aq)} \rightleftharpoons PbCl_{2(s)} + 2 NaNO_{3(aq)}\]</span></p>
+</div>
+</div>
+</div>
+<p>An <strong>ionic equation</strong> is written to show the actual species in solution:</p>
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><span class="math display">\[Pb_{(aq)}^{2+} + 2 NO^-_{3(aq)} + 2 Na^+_{(aq)} + 2 Cl_{(aq)}^{-} \rightleftharpoons PbCl_{2(s)} + 2 Na_{(aq)}^+ + 2 NO^-_{3(aq)}\]</span></p>
+</div>
+</div>
+</div>
+<p>This equation contains spectators that are not interacting, we can eliminate those spectators to get a <strong>net ionic equation:</strong></p>
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><span class="math display">\[Pb^{2+}_{(aq)} + 2Cl^-_{(aq)} \rightleftharpoons PbCl_{2(s)}\]</span></p>
+</div>
+</div>
+</div>
+<section id="steps-in-writing-a-net-ionic-equation" class="level4">
+<h4 class="anchored" data-anchor-id="steps-in-writing-a-net-ionic-equation">Steps in writing a net ionic equation:</h4>
+<ol type="1">
+<li>Write the conventional equation, including designations of state [(g), (l), (s), (aq)]. Balance the equation.</li>
+<li>Write the ionic equation by replacing each dissolved substance (aq) with the species in solution. Never change states in this step. Be sure the equation is balanced for both atoms and charge.</li>
+<li>Write the net ionic equation by removing the spectators. Reduce coefficients to lowest terms. Be sure the equation is balanced for both atoms and charge.</li>
+</ol>
+</section>
+</section>
+<section id="chemical-equilibrium" class="level3">
+<h3 class="anchored" data-anchor-id="chemical-equilibrium">Chemical Equilibrium</h3>
+<p><strong>How do we know if a reaction will proceed?</strong></p>
+<ul>
+<li>Is a geochemical system at chemical equilibrium?</li>
+<li>If not, what reactions are most likely to occur?</li>
+</ul>
+<p><strong>Types of processes where we would want to know if a reaction will proceed:</strong></p>
+<ul>
+<li>Solubility - diatoms in surface seawater</li>
+<li>Redox - organic matter oxidation</li>
+<li>Complexation - iron speciation &amp; plankton growth</li>
+<li>Carbonate system - CaCO<sub>3</sub> stability in marine sediments</li>
+</ul>
+<p>Consider a reversible reaction taking place at constant temperature:</p>
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><span class="math display">\[aA + bB \rightleftharpoons cC + dD\]</span></p>
+</div>
+</div>
+</div>
+<p>The <strong>reactants</strong> A and B combine to form products C and D.</p>
+<p>The concentrations of A and B decrease until they reach values that do not change with time:</p>
+<p><img src="assets/images/reaction_abcd.jpg" class="img-fluid" width="478"></p>
+<p>The time-invariant concentrations of reactants and products are called equilibrium concentrations. The ratio of these concentrations (or activities – active concentrations) is characteristic for each reaction, and is called the equilibrium constant, K:</p>
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><span class="math display">\[K=\frac{\{C\}^c\{D\}^d}{\{A\}^a\{B\}^b}\]</span></p>
+</div>
+</div>
+</div>
+<p><strong>Other than adding reactants and waiting until concentrations no longer change, how do we know what the equilibrium is?</strong></p>
+</section>
+</section>
+<section id="thermodynamics" class="level2">
+<h2 class="anchored" data-anchor-id="thermodynamics">Thermodynamics</h2>
+<p><strong>…or how to predict chemical reactions without doing experiments</strong></p>
+<embed class="pdf-embed" src="assets/pdfs/Thermodynamics_slides.pdf" type="application/pdf">
+<p><a href="assets/pdfs/Thermodynamics_slides.pdf" class="pdf-link">Download PDF</a></p>
+<p><strong>We want to answer these questions:</strong></p>
+<ul>
+<li>Will this reaction happen?</li>
+<li>If so, how far can it proceed?</li>
+</ul>
+<p><strong>We’ll only review a small subset of thermodynamics:</strong></p>
+<ul>
+<li>Laws of Thermodynamics and how they apply to chemistry
+<ul>
+<li>Entropy, Enthalpy</li>
+</ul></li>
+<li>Equilibrium</li>
+<li>Using Gibbs free energy to determine if a reaction will proceed as written</li>
+</ul>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Laws of Thermodynamics
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li>Conservation of energy – total energy remains constant (but can be converted from one form to another)</li>
+<li>Entropy (disorder) tends to increase</li>
+<li>Entropy is constant when the temperature equals absolute zero</li>
+</ol>
+</div>
+</div>
+<p>Definitions:</p>
+<ul>
+<li>Enthalpy – total energy of an element or compound</li>
+<li>Entropy – degree of disorder (highly structured = low entropy, randomized = high entropy)</li>
+<li>Gibbs free energy – the part of the total energy available to perform “useful” work</li>
+</ul>
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Changes in enthalpy and entropy allow prediction of the feasibility of reactions</p>
+</div>
+</div>
+</div>
+</section>
+<section id="reduction-oxidation-reactions" class="level2">
+<h2 class="anchored" data-anchor-id="reduction-oxidation-reactions">Reduction-Oxidation Reactions</h2>
+<embed class="pdf-embed" src="assets/pdfs/Redox_slides.pdf" type="application/pdf">
+<p><a href="assets/pdfs/Redox_slides.pdf" class="pdf-link">Download PDF</a></p>
+</section>
+<section id="chemistry-in-seawater-redox-potential-pe-ph" class="level2">
+<h2 class="anchored" data-anchor-id="chemistry-in-seawater-redox-potential-pe-ph">Chemistry in Seawater: Redox potential, pE-pH</h2>
+<embed class="pdf-embed" src="assets/pdfs/Electrode_Potential.pdf" type="application/pdf">
+<p><a href="assets/pdfs/Electrode_Potential.pdf" class="pdf-link">Download PDF</a></p>
+</section>
+<section id="acids-and-bases-carbonate-chemistry" class="level2">
+<h2 class="anchored" data-anchor-id="acids-and-bases-carbonate-chemistry">Acids and Bases + Carbonate chemistry</h2>
+<embed class="pdf-embed" src="assets/pdfs/13_Acids_Bases_Carbonate_Chemistry.pdf" type="application/pdf">
+<p><a href="assets/pdfs/13_Acids_Bases_Carbonate_Chemistry.pdf" class="pdf-link">Download PDF</a></p>
+<div id="0d18424d" class="cell" data-execution_count="1">
+<details class="code-fold">
+<summary>Show/hide code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> PyCO2SYS <span class="im">as</span> pyco2</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>n <span class="op">=</span> <span class="dv">100</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>DIC <span class="op">=</span> np.empty((n,<span class="dv">1</span>))</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>TEMP <span class="op">=</span> np.empty((n,<span class="dv">1</span>))</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>PRES <span class="op">=</span> np.empty((n,<span class="dv">1</span>))</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>PRES2 <span class="op">=</span> np.empty((n,<span class="dv">1</span>))</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>SAL <span class="op">=</span> np.empty((n,<span class="dv">1</span>))</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>pH <span class="op">=</span> np.empty((n,<span class="dv">1</span>))</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>DIC[:] <span class="op">=</span> <span class="dv">2300</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>TEMP[:] <span class="op">=</span> <span class="dv">20</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>PRES[:] <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>PRES2[:] <span class="op">=</span> <span class="dv">4000</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>SAL[:] <span class="op">=</span> <span class="dv">35</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(DIC.shape)</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>pH_temp <span class="op">=</span> np.linspace(<span class="dv">0</span>,<span class="dv">12</span>,n)</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>pH[:,<span class="dv">0</span>] <span class="op">=</span> pH_temp</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>results <span class="op">=</span> pyco2.sys(</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>            par1<span class="op">=</span>DIC, </span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>            par2<span class="op">=</span>pH,</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>            par1_type<span class="op">=</span><span class="dv">2</span>,</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>            par2_type<span class="op">=</span><span class="dv">3</span>,</span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>            temperature<span class="op">=</span>TEMP, </span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>            pressure<span class="op">=</span>PRES, </span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>            salinity<span class="op">=</span>SAL, </span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>            temperature_out<span class="op">=</span><span class="fl">25.</span>,<span class="co">#*np.ones(argo_n[pres_name].shape), #fixed 25C temperature</span></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>            pressure_out<span class="op">=</span> PRES, </span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>            total_silicate<span class="op">=</span><span class="dv">0</span>,</span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>            total_phosphate<span class="op">=</span><span class="dv">0</span>,</span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>            opt_pH_scale <span class="op">=</span> <span class="dv">1</span>, <span class="co">#total</span></span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>            opt_k_carbonic<span class="op">=</span><span class="dv">10</span>, <span class="co">#Lueker et al. 2000</span></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>            opt_k_bisulfate<span class="op">=</span><span class="dv">1</span>, <span class="co"># Dickson 1990 (Note, matlab co2sys combines KSO4 with TB. option 3 = KSO4 of Dickson &amp; TB of Lee 2010)</span></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a>            opt_total_borate<span class="op">=</span><span class="dv">2</span>, <span class="co"># Lee et al. 2010</span></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a>            opt_k_fluoride<span class="op">=</span><span class="dv">2</span>, <span class="co"># Perez and Fraga 1987</span></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>            opt_buffers_mode<span class="op">=</span><span class="dv">1</span>,</span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>results2 <span class="op">=</span> pyco2.sys(</span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>            par1<span class="op">=</span>DIC, </span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a>            par2<span class="op">=</span>pH,</span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a>            par1_type<span class="op">=</span><span class="dv">2</span>,</span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a>            par2_type<span class="op">=</span><span class="dv">3</span>,</span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a>            temperature<span class="op">=</span>TEMP, </span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a>            pressure<span class="op">=</span>PRES2, </span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a>            salinity<span class="op">=</span>SAL, </span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a>            temperature_out<span class="op">=</span><span class="fl">25.</span>,<span class="co">#*np.ones(argo_n[pres_name].shape), #fixed 25C temperature</span></span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a>            pressure_out<span class="op">=</span> PRES2, </span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a>            total_silicate<span class="op">=</span><span class="dv">0</span>,</span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a>            total_phosphate<span class="op">=</span><span class="dv">0</span>,</span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a>            opt_pH_scale <span class="op">=</span> <span class="dv">1</span>, <span class="co">#total</span></span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a>            opt_k_carbonic<span class="op">=</span><span class="dv">10</span>, <span class="co">#Lueker et al. 2000</span></span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a>            opt_k_bisulfate<span class="op">=</span><span class="dv">1</span>, <span class="co"># Dickson 1990 (Note, matlab co2sys combines KSO4 with TB. option 3 = KSO4 of Dickson &amp; TB of Lee 2010)</span></span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a>            opt_total_borate<span class="op">=</span><span class="dv">2</span>, <span class="co"># Lee et al. 2010</span></span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a>            opt_k_fluoride<span class="op">=</span><span class="dv">2</span>, <span class="co"># Perez and Fraga 1987</span></span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a>            opt_buffers_mode<span class="op">=</span><span class="dv">1</span>,</span>
+<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a>fig <span class="op">=</span> plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>, <span class="dv">5</span>), )</span>
+<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a>ax <span class="op">=</span> fig.add_subplot(<span class="dv">1</span>,<span class="dv">1</span>,<span class="dv">1</span>)</span>
+<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a>ax.plot(pH, results[<span class="st">'CO3_out'</span>], label<span class="op">=</span><span class="st">'[CO$_3$$^{2-}$]'</span>)</span>
+<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a>ax.plot(pH, results[<span class="st">'HCO3_out'</span>], label<span class="op">=</span><span class="st">'[HCO$_3$$^{-}$]'</span>)</span>
+<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a>ax.plot(pH, results[<span class="st">'aqueous_CO2'</span>], label<span class="op">=</span><span class="st">'[CO$_{2,aq}$]'</span>)</span>
+<span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a>ax.hlines(y<span class="op">=</span>DIC[<span class="dv">0</span>], xmax<span class="op">=</span><span class="dv">0</span>, xmin<span class="op">=</span><span class="dv">12</span>,colors<span class="op">=</span><span class="st">'k'</span>, linestyles<span class="op">=</span><span class="st">'--'</span>, label<span class="op">=</span><span class="st">'[DIC]'</span>)</span>
+<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a>ax.legend()</span>
+<span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a>ax.plot(pH, results2[<span class="st">'CO3_out'</span>], label<span class="op">=</span><span class="st">'[CO$_3$$^{2-}$]'</span>)</span>
+<span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a>ax.plot(pH, results2[<span class="st">'HCO3_out'</span>], label<span class="op">=</span><span class="st">'[HCO$_3$$^{-}$]'</span>)</span>
+<span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a>ax.plot(pH, results2[<span class="st">'aqueous_CO2'</span>], label<span class="op">=</span><span class="st">'[CO$_{2,aq}$]'</span>)</span>
+<span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a>ax.set_xlabel(<span class="st">'pH (total scale)'</span>)</span>
+<span id="cb1-80"><a href="#cb1-80" aria-hidden="true" tabindex="-1"></a>ax.set_ylabel(<span class="vs">r'log </span><span class="pp">[C]</span><span class="vs"> </span><span class="kw">(</span><span class="dv">$\m</span><span class="vs">u</span><span class="dv">$</span><span class="vs">mol kg</span><span class="dv">$^</span><span class="vs">{-1}</span><span class="dv">$</span><span class="kw">)</span><span class="vs">'</span>)</span>
+<span id="cb1-81"><a href="#cb1-81" aria-hidden="true" tabindex="-1"></a>ax.set_yscale(<span class="st">'log'</span>)</span>
+<span id="cb1-82"><a href="#cb1-82" aria-hidden="true" tabindex="-1"></a>ax.set_ylim(<span class="dv">10</span><span class="op">**-</span><span class="dv">6</span>, <span class="dv">10</span><span class="op">**</span><span class="dv">4</span>)</span>
+<span id="cb1-83"><a href="#cb1-83" aria-hidden="true" tabindex="-1"></a>plt.draw()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>(100, 1)</code></pre>
+</div>
+<div class="cell-output cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="03-thermodynamics_files/figure-html/cell-2-output-2.png" width="676" height="437" class="figure-img"></p>
+<figcaption>Example</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="estuarine-and-coastal-biogeochemistry" class="level2">
+<h2 class="anchored" data-anchor-id="estuarine-and-coastal-biogeochemistry">Estuarine and coastal biogeochemistry</h2>
+<embed class="pdf-embed" src="assets/pdfs/OCN623-Coastal_bgc_students.pdf" type="application/pdf">
+<p><a href="assets/pdfs/OCN623-Coastal_bgc_students.pdf" class="pdf-link">Download PDF</a></p>
+</section>
+<section id="diagenesis-in-sediments" class="level2">
+<h2 class="anchored" data-anchor-id="diagenesis-in-sediments">Diagenesis in sediments</h2>
+<embed class="pdf-embed" src="assets/pdfs/OCN623_2024_Diagenesis_slides.pdf" type="application/pdf">
+<p><a href="assets/pdfs/OCN623_2024_Diagenesis_slides.pdf" class="pdf-link">Download PDF</a></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/sethbushinsky\.github\.io\/OCN623_Chemical_Oceanography");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+      window.quartoDecorateExternalLinks = function (root) {
+     var links = (root || window.document).querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+          if (!link.classList.contains('no-external-icon')) {
+          }
+        }
+      }
+      };
+      window.quartoDecorateExternalLinks(window.document);
+    // Esc closes the popup (WCAG 1.4.13) and focus leaving both trigger and
+    // popup closes it (WCAG 2.4.11); tippy handles neither for interactive popups.
+    const hideOnEscAndFocusOut = {
+      name: 'hideOnEscAndFocusOut',
+      defaultValue: true,
+      fn(instance) {
+        const dismiss = () => {
+          // A show scheduled by the trigger delay would otherwise reopen it
+          instance.clearDelayTimeouts();
+          instance.hide();
+        };
+        const onKeyDown = (event) => {
+          if (event.key !== 'Escape') {
+            return;
+          }
+          // Keep Esc from also reaching page handlers (e.g. reveal.js overview),
+          // except an open reveal.js slide menu, which Esc should close too.
+          // The menu handles keys only when its keyboard option is on.
+          const menuHandlesEsc = window.Reveal?.getPlugin?.('menu')?.isOpen() &&
+            window.Reveal.getConfig().menu?.keyboard !== false;
+          if (!menuHandlesEsc) {
+            event.stopPropagation();
+          }
+          if (instance.popper.contains(window.document.activeElement)) {
+            // Disabled while refocusing so the focus trigger does not reopen it
+            instance.disable();
+            instance.reference.focus();
+            instance.enable();
+          }
+          dismiss();
+        };
+        const onFocusOut = (event) => {
+          const target = event.relatedTarget;
+          if (target && !instance.reference.contains(target) &&
+              !instance.popper.contains(target)) {
+            dismiss();
+          }
+        };
+        // On the trigger too: a click trigger (code-annotations: select) has no
+        // blur handling. Attached for the instance's lifetime so leaving the
+        // trigger also cancels a show still pending on the trigger delay.
+        instance.reference.addEventListener('focusout', onFocusOut);
+        return {
+          onShow() {
+            window.document.addEventListener('keydown', onKeyDown, true);
+            instance.popper.addEventListener('focusout', onFocusOut);
+          },
+          onHide() {
+            window.document.removeEventListener('keydown', onKeyDown, true);
+            instance.popper.removeEventListener('focusout', onFocusOut);
+          },
+          onDestroy() {
+            instance.reference.removeEventListener('focusout', onFocusOut);
+          },
+        };
+      },
+    };
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+        plugins: [hideOnEscAndFocusOut],
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          // Each band is positioned against its own containing block, which is
+          // not the offsetParent of the lines, so place it from client rects.
+          const placeBand = (band, firstEl, lastEl, codeBlock) => {
+            const container = band.offsetParent;
+            if (container === null) {
+              return;
+            }
+            const containerRect = container.getBoundingClientRect();
+            // Reveal.js scales slides with a transform, so convert client
+            // pixels back to the CSS pixels of the container.
+            const scale = containerRect.height / container.offsetHeight || 1;
+            const firstRect = firstEl.getBoundingClientRect();
+            const lastRect = lastEl.getBoundingClientRect();
+            const top = (firstRect.top - containerRect.top) / scale - container.clientTop + container.scrollTop;
+            const height = (lastRect.bottom - firstRect.top) / scale;
+            band.style.top = top - 2 + "px";
+            band.style.height = height + 4 + "px";
+            if (codeBlock) {
+              // Without the copy button wrapper, the containing block is wider
+              // than the code block, so span the code block explicitly.
+              const blockRect = codeBlock.getBoundingClientRect();
+              band.style.left = (blockRect.left - containerRect.left) / scale - container.clientLeft + container.scrollLeft + "px";
+              band.style.width = blockRect.width / scale + "px";
+            }
+          };
+          if (lineIds.length > 0) {
+            const el = window.document.getElementById(lineIds[0]);
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const parent = el.parentElement.parentElement;
+            // cook up a div (if necessary) and position it
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            placeBand(div, el, lastEl, parent.closest("div.sourceCode") || parent);
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            placeBand(gutterDiv, el, lastEl);
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+  <script type="application/javascript">
+  window.quartoScrollableRegionsLabels = {"code":"Scrollable code","output":"Scrollable output"};
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© Seth Bushinsky</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Built with <a href="https://quarto.org/">Quarto</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

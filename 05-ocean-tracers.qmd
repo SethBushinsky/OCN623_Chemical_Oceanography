@@ -1,0 +1,77 @@
+---
+title: "Section 5: Measuring processes in the ocean on short and long timescales"
+theme: cosmo
+---
+::: {#nte-pay-attention .callout-note icon="false"}
+
+## Pay Attention
+
+Using callouts is an effective way to highlight content that your reader give special consideration or attention.
+
+:::
+
+{{< placeholder >}}
+
+::: {layout-ncol=2}
+### List One
+
+- Item A
+- Item B
+- Item C
+
+### List Two
+
+- Item X
+- Item Y
+- Item Z
+:::
+
+See @nte-pay-attention
+
+
+::: {layout-ncol=2}
+- Item X
+- Item Y
+- Item Z
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur gravida eu erat et fring. Morbi congue augue vel eros ullamcorper, eget convallis tortor sagittis. Fusce sodales viverra mauris a fringilla. Donec feugiat, justo eu blandit placerat, enim dui volutpat turpis, eu dictum lectus urna eu urna. Mauris sed massa ornare, interdum ipsum a, semper massa. 
+:::
+
+:::: {layout="[ 40, 60 ]"}
+
+::: {#first-column}
+```python
+# Some code
+```
+
+Some text that should be laid out below the code
+:::
+
+::: {#second-column}
+![](assets/images/Logo_Mark_Backed.png)
+:::
+
+::::
+
+## Ocean tracers
+
+<embed class="pdf-embed" src="assets/pdfs/19_Ocean_Tracers.pdf" type="application/pdf">
+
+[Download PDF](assets/pdfs/19_Ocean_Tracers.pdf){.pdf-link}
+
+## Stable Isotopes
+
+<embed class="pdf-embed" src="assets/pdfs/20_Stable_Isotopes.pdf" type="application/pdf">
+
+[Download PDF](assets/pdfs/20_Stable_Isotopes.pdf){.pdf-link}
+
+## Radioisotopes
+
+<embed class="pdf-embed" src="assets/pdfs/21_Radioisotopes.pdf" type="application/pdf">
+
+[Download PDF](assets/pdfs/21_Radioisotopes.pdf){.pdf-link}
+
+::: {.callout-tip title="Related"}
+An interesting Radiolab episode about determining the age of the earth via radioisotopes (and some problematic contamination):
+[Radiolab: Heavy Metal, Sept. 24, 2001](http://www.wnycstudios.org/story/heavy-metal/){target="_blank"}
+:::
